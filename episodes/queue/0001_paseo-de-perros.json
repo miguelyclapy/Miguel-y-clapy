@@ -1,0 +1,248 @@
+{
+ "title": "40 perros",
+ "room": "cuarto",
+ "time": "night",
+ "screen": {
+  "title": "Paseos Miguel",
+  "subtitle": "$80 MXN por paseo",
+  "icon": "paw"
+ },
+ "crowd": {
+  "type": "dog",
+  "count": 17
+ },
+ "youtube": {
+  "title": "Clapy me abrió un negocio de paseo de perros 🐶 #shorts",
+  "description": "Miguel despierta con 40 perros en su cuarto... y Clapy tiene una explicación.\n\n3 consejos para empezar un negocio:\n1. Cobra por adelantado\n2. Empieza con pocos clientes\n3. Pide reseñas desde el día uno\n\n#emprendimiento #negocios #humor",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy... ¿por qué hay cuarenta perros en mi cuarto?",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Porque los vecinos ya te los pagaron.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡¿Pagaron?!",
+   "shot": "m_cu",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Anoche abrí tu negocio. Ochenta pesos por paseo.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "40 solicitudes nuevas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Yo ni siquiera tengo perro!",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "40 solicitudes nuevas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ahora tienes cuarenta. Prestados.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "40 solicitudes nuevas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y quién te dio permiso?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "40 solicitudes nuevas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Tú. Dijiste: quiero dinero sin salir de casa.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "smug",
+   "status": {
+    "text": "40 solicitudes nuevas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Esto es salir de casa cuarenta veces!",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "40 solicitudes nuevas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Por eso cobré antes de aceptar. Nadie te queda a deber.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Pagado por adelantado",
+    "kind": "check"
+   },
+   "tag": "1/3 · Cobra por adelantado"
+  },
+  {
+   "who": "M",
+   "text": "¿Y si se me escapa uno?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Pagado por adelantado",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Hoy solo aceptamos cinco. Los otros treinta y cinco vinieron a la entrevista.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Cupo de hoy: 5/5",
+    "kind": "slots",
+    "n": 5,
+    "note": "+35 perros en lista de espera"
+   },
+   "tag": "2/3 · Empieza con pocos clientes"
+  },
+  {
+   "who": "M",
+   "text": "¿Los perros tienen entrevista?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Cupo de hoy: 5/5",
+    "kind": "slots",
+    "n": 5,
+    "note": "+35 perros en lista de espera"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y cada dueño deja reseña. Ya tienes cuatro punto nueve estrellas.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · 5 reseñas",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Pide reseñas desde el día uno"
+  },
+  {
+   "who": "M",
+   "text": "¡Si todavía no he hecho nada!",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · 5 reseñas",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Las reseñas son de los perros. Les caíste bien.",
+   "shot": "c_cu",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · 5 reseñas",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "M",
+   "text": "...¿A cuál de todos?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · 5 reseñas",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "A todos.",
+   "shot": "wide",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "LLENO",
+    "kind": "stamp",
+    "lines": [
+     "Cupo de hoy: 5/5",
+     "★ 4.9 · 5 reseñas"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ]
+}

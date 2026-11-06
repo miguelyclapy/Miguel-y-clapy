@@ -1,0 +1,7 @@
+numpy
+scipy
+soundfile
+pillow
+pycairo
+requests
+playwright==1.48.0
