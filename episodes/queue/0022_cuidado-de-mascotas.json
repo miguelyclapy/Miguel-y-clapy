@@ -166,7 +166,7 @@
   },
   {
    "who": "M",
-   "text": "Clapy... uno se subió a mi cama.",
+   "text": "Clapy, ¿y si ladran toda la noche?",
    "shot": "m_ms",
    "pose": "hands_head",
    "face": "shock",
@@ -178,7 +178,7 @@
   },
   {
    "who": "C",
-   "text": "Suite presidencial. Esa cuesta el doble.",
+   "text": "Tú les cantas. El arrullo viene incluido.",
    "shot": "wide",
    "pose": "shrug",
    "face": "happy",

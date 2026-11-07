@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy le vende cupcakes a cafeterías 🧁 #shorts",
-  "description": "Cientos de cupcakes en la cocina. Clapy no le vende a personas: le vende a negocios.\n\n3 consejos para tu negocio:\n1. Vende al mayoreo\n2. Pedidos fijos cada semana\n3. Contrato sencillo por escrito\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "La cocina está llena de cajas de cupcakes. Clapy no le vende a personas: le vende a negocios.\n\n3 consejos para tu negocio:\n1. Vende al mayoreo\n2. Pedidos fijos cada semana\n3. Contrato sencillo por escrito\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué hay doscientos cuarenta cupcakes?",
+   "text": "Clapy, ¿qué hay en todas estas cajas?",
    "shot": "wide",
    "pose": "point",
    "face": "shock",
@@ -33,7 +33,7 @@
   },
   {
    "who": "C",
-   "text": "Cuatro cafeterías. Sesenta cada una.",
+   "text": "Doscientos cuarenta cupcakes. Cuatro cafeterías, sesenta cada una.",
    "shot": "c_cu",
    "pose": "think",
    "face": "sus",
@@ -196,7 +196,7 @@
   }
  ],
  "crowd": {
-  "type": "cake",
+  "type": "box",
   "count": 17
  }
 }

@@ -166,7 +166,7 @@
   },
   {
    "who": "M",
-   "text": "Clapy, ¿y este celular de quién es?",
+   "text": "Clapy, ¿y mi celular? No lo encuentro.",
    "shot": "m_ms",
    "pose": "point",
    "face": "angry",
@@ -178,7 +178,7 @@
   },
   {
    "who": "C",
-   "text": "Tuyo. Lo dejaste caer ayer. Ya te toca turno.",
+   "text": "Está en una de esas cajas. Lo dejaste caer ayer. Ya te toca turno.",
    "shot": "wide",
    "pose": "arms_up",
    "face": "shock",

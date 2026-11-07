@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy llenó mi cuarto de tenis para revender 👟 #shorts",
-  "description": "El cuarto de Miguel es una torre de cajas de tenis. Clapy ya los está revendiendo.\n\n3 consejos para tu negocio:\n1. Revisa que sean originales\n2. Conoce tu margen\n3. No inviertas todo de golpe\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "El cuarto de Miguel está lleno de cajas de tenis. Clapy ya los está revendiendo.\n\n3 consejos para tu negocio:\n1. Revisa que sean originales\n2. Conoce tu margen\n3. No inviertas todo de golpe\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué no puedo ver mi cama?",
+   "text": "Clapy, ¿por qué mi cuarto está lleno de cajas de tenis?",
    "shot": "wide",
    "pose": "hands_head",
    "face": "shock",
@@ -33,7 +33,7 @@
   },
   {
    "who": "C",
-   "text": "Está debajo de veintidós pares de tenis. Abrí tu reventa.",
+   "text": "Son veintidós pares de tenis. Abrí tu reventa.",
    "shot": "c_cu",
    "pose": "shrug",
    "face": "confused",
@@ -166,7 +166,7 @@
   },
   {
    "who": "M",
-   "text": "¿Y mi cama?",
+   "text": "¿Y dónde voy a dormir?",
    "shot": "m_ms",
    "pose": "hands_head",
    "face": "shock",
@@ -178,7 +178,7 @@
   },
   {
    "who": "C",
-   "text": "Llega el lunes. Con el dinero de los tenis.",
+   "text": "Arriba de las cajas. Con cuidado, son mercancía.",
    "shot": "wide",
    "pose": "hands_head",
    "face": "shock",
