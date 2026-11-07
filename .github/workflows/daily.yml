@@ -3,7 +3,7 @@ name: Video diario Miguel y Clapy
 on:
   schedule:
     # 09:17 UTC = 3:17 a.m. hora de Ciudad de Mexico (UTC-6, sin horario de verano)
-    - cron: "17 9 * * *"
+    - cron: "17 7 * * *"
   workflow_dispatch:
     inputs:
       date:
