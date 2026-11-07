@@ -41,8 +41,8 @@ export function makeMiguel(scene, AV, anchor) {
   const nose = sph(0.095, std(new THREE.Color(AV.skin).multiplyScalar(0.92).getHex(), { roughness: 0.6 })); nose.scale.set(0.85, 1, 1); add(head, nose, 0, -0.08, 0.72);
   const eyeWhite = std(0xffffff, { roughness: 0.2 }), irisMat = std(AV.eyes, { roughness: 0.3 }), pupilMat = std(0x080808, { roughness: 0.2 });
   const eyes = [-1, 1].map(s => { const g = new THREE.Group(); add(head, g, s * 0.26, 0.1, 0.6); g.add(sph(0.135, eyeWhite));
-    const iris = sph(0.085, irisMat); iris.position.z = 0.075; iris.scale.z = 0.5; g.add(iris); const p = sph(0.045, pupilMat); p.position.z = 0.105; p.scale.z = 0.4; g.add(p);
-    const hl = sph(0.022, new THREE.MeshBasicMaterial({ color: 0xffffff })); hl.position.set(0.03, 0.035, 0.125); g.add(hl);
+    const iris = sph(0.085, irisMat); iris.position.z = 0.112; iris.scale.z = 0.45; g.add(iris); const p = sph(0.045, pupilMat); p.position.z = 0.128; p.scale.z = 0.4; g.add(p);
+    const hl = sph(0.022, new THREE.MeshBasicMaterial({ color: 0xffffff })); hl.position.set(0.03, 0.035, 0.15); g.add(hl);
     const lid = new THREE.Mesh(new THREE.SphereGeometry(0.145, 24, 12, 0, Math.PI * 2, 0, Math.PI / 2), skin); lid.rotation.x = -0.2; g.add(lid);
     return { g, iris, p, hl, lid }; });
   const brows = [-1, 1].map(s => { const b = new THREE.Mesh(new THREE.CapsuleGeometry(0.06, 0.26, 4, 8), hairMat); b.rotation.z = Math.PI / 2; add(head, b, s * 0.27, 0.36, 0.64); return b; });

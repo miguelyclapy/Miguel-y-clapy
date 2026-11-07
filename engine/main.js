@@ -3,13 +3,14 @@ import { ROOMS } from './rooms.js';
 import { makeMiguel, makeClapy } from './characters.js';
 import { makeCrowd } from './props.js';
 
-const W = 1080, H = 1920;
 const params = new URLSearchParams(location.search);
+const W = +(params.get('w') || 1080), H = +(params.get('h') || 1920);
+const BARE = params.get('bare') === '1';
 const EP = await (await fetch(params.get('data') || '../work/render_data.json')).json();
 const AV = await (await fetch('../assets/avatar.json')).json();
 const TL = EP.tl;
 
-const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true, alpha: BARE });
 renderer.setSize(W, H); renderer.setPixelRatio(1);
 renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = EP.time === 'day' ? 1.05 : 1.2;
@@ -27,6 +28,7 @@ const rim = new THREE.DirectionalLight(day ? 0xfff0d0 : 0x9db0ff, day ? 1.6 : 1.
 const scrCanvas = document.createElement('canvas'); scrCanvas.width = 1160; scrCanvas.height = 666;
 const scrTex = new THREE.CanvasTexture(scrCanvas); scrTex.colorSpace = THREE.SRGBColorSpace;
 const room = ROOMS[EP.room || 'cuarto'](scene, { screenTex: scrTex, time: EP.time || 'night' });
+const nRoom = scene.children.length;
 let holo = null;
 if (room.screen.holo) {
   const s = room.screen; holo = new THREE.Mesh(new THREE.PlaneGeometry(s.w, s.h), new THREE.MeshBasicMaterial({ map: scrTex, transparent: true, depthWrite: false, toneMapped: false, side: THREE.DoubleSide }));
@@ -35,6 +37,7 @@ if (room.screen.holo) {
 const miguel = makeMiguel(scene, AV, room.miguel);
 const clapy = makeClapy(scene, room.clapy);
 const crowd = makeCrowd(scene, EP.crowd, room.crowdSpots, 7);
+if (BARE) { scene.background = null; scene.fog = null; scene.children.slice(0, nRoom).forEach(o => { if (!o.isLight) o.visible = false; }); if (holo) { holo.visible = false; } }
 scene.updateMatrixWorld(true);
 const mh = miguel.headWorld();
 const cp = new THREE.Vector3(...room.clapy.pos), sc = new THREE.Vector3(...room.screen.center);
@@ -97,6 +100,16 @@ function drawScreen(L, t) {
   g.restore(); scrTex.needsUpdate = true;
 }
 
+// fotos para canal: camara libre. t=[x,y,z] objetivo, h=altura visible, az=angulo, el=elevacion
+window.POS = { miguel: [mh.x, mh.y, mh.z], clapy: [cp.x, cp.y, cp.z], screen: [sc.x, sc.y, sc.z], wide: room.wide };
+window.renderCustom = function (idx, t, h, az, el = 0.06) {
+  const F = EP.frames[idx]; const L = TL[F.i]; const tt = F.t;
+  miguel.update(F, L, tt); clapy.update(F, L, tt); crowd.update(tt, F.ex); drawScreen(L, tt);
+  if (BARE && holo) { holo.visible = false; holo.userData.glow.visible = false; }
+  const dist = (h / 2) / Math.tan(rad(15));
+  camera.position.set(t[0] + Math.sin(az) * dist, t[1] + dist * el, t[2] + Math.cos(az) * dist); camera.lookAt(...t);
+  renderer.render(scene, camera); return renderer.domElement.toDataURL('image/png');
+};
 window.renderFrame = function (idx) {
   const F = EP.frames[idx]; const L = TL[F.i]; const t = F.t;
   updateCamera(L, t); miguel.update(F, L, t); clapy.update(F, L, t); crowd.update(t, F.ex); drawScreen(L, t);
