@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué mi baño parece tienda de cremas?",
+   "text": "Clapy, ¿qué hacen tantas cajas en mi baño?",
    "shot": "wide",
    "pose": "point",
    "face": "shock",
@@ -33,7 +33,7 @@
   },
   {
    "who": "C",
-   "text": "Porque es una tienda de cremas. Veintiocho kits pedidos.",
+   "text": "Son kits de cremas. Veintiocho pedidos.",
    "shot": "c_cu",
    "pose": "shrug",
    "face": "confused",

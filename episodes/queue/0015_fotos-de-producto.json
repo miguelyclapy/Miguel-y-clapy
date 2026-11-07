@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy me puso a tomar fotos de productos 📸 #shorts",
-  "description": "La sala de Miguel ahora es un estudio fotográfico. Clapy le consiguió clientes.\n\n3 consejos para tu negocio:\n1. Usa lo que ya tienes\n2. Fondo limpio\n3. Entrega en paquetes\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "Clapy convirtió la sala de Miguel en estudio de fotos y ya le consiguió clientes.\n\n3 consejos para tu negocio:\n1. Usa lo que ya tienes\n2. Fondo limpio\n3. Entrega en paquetes\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué mi sala tiene una sábana blanca colgada?",
+   "text": "Clapy, ¿por qué mi tele dice Foto Miguel?",
    "shot": "wide",
    "pose": "shrug",
    "face": "shock",
@@ -32,7 +32,7 @@
   },
   {
    "who": "C",
-   "text": "Es tu estudio de fotos. Ya tienes ocho clientes.",
+   "text": "Porque tu sala ahora es estudio de fotos. Ya tienes ocho clientes.",
    "shot": "c_cu",
    "pose": "shrug",
    "face": "confused",
@@ -86,7 +86,7 @@
   },
   {
    "who": "M",
-   "text": "¿Y por qué la sábana?",
+   "text": "¿Y qué fondo uso?",
    "shot": "m_cu",
    "pose": "think",
    "face": "sus",
@@ -98,7 +98,7 @@
   },
   {
    "who": "C",
-   "text": "Fondo limpio. Lo que importa es el producto, no tu sillón.",
+   "text": "Una sábana blanca. Fondo limpio. Lo que importa es el producto, no tu sillón.",
    "shot": "c_ms",
    "pose": "idle",
    "face": "confused",
@@ -165,7 +165,7 @@
   },
   {
    "who": "M",
-   "text": "Clapy, esa es mi cena. ¿Por qué le estás tomando foto?",
+   "text": "Clapy, ¿por qué le tomaste foto a mi cena?",
    "shot": "m_ms",
    "pose": "arms_up",
    "face": "angry",

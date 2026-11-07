@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy... ¿por qué mi cara está en un sticker?",
+   "text": "Clapy, ¿qué hay en todas estas cajas?",
    "shot": "wide",
    "pose": "shrug",
    "face": "shock",
@@ -33,7 +33,7 @@
   },
   {
    "who": "C",
-   "text": "Porque es el más vendido. Quinientos ya.",
+   "text": "Stickers con tu cara. Ya vendí quinientos.",
    "shot": "c_cu",
    "pose": "think",
    "face": "sus",

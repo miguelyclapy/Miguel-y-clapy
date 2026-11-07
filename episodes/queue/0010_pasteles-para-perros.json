@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy hace pasteles… para perros 🐶🎂 #shorts",
-  "description": "Doce perritos esperan en la sala. Es su fiesta de cumpleaños y Miguel es el pastelero.\n\n3 consejos para tu negocio:\n1. Busca un mercado poco atendido\n2. Haz tu producto seguro\n3. Vende la experiencia\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "Doce perritos esperan en la sala. Vienen por su pastel de cumpleaños y Miguel es el pastelero.\n\n3 consejos para tu negocio:\n1. Busca un mercado poco atendido\n2. Haz tu producto seguro\n3. Vende la experiencia\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué hay doce perros con gorrito de fiesta?",
+   "text": "Clapy, ¿por qué hay doce perros en la sala?",
    "shot": "wide",
    "pose": "point",
    "face": "shock",
@@ -139,7 +139,7 @@
   },
   {
    "who": "M",
-   "text": "¿Y por qué traen gorrito?",
+   "text": "¿Y por qué tanto escándalo?",
    "shot": "m_cu",
    "pose": "shrug",
    "face": "confused",
@@ -166,7 +166,7 @@
   },
   {
    "who": "M",
-   "text": "Clapy... se están comiendo mi sillón.",
+   "text": "Clapy... ¿y quién limpia después de la fiesta?",
    "shot": "m_ms",
    "pose": "arms_up",
    "face": "angry",
@@ -178,7 +178,7 @@
   },
   {
    "who": "C",
-   "text": "Eso no venía en el paquete. Te lo cobro aparte.",
+   "text": "Tú. La limpieza no venía en el paquete.",
    "shot": "wide",
    "pose": "shrug",
    "face": "happy",

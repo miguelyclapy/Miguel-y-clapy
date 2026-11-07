@@ -35,7 +35,7 @@ def main():
     print("2/4 linea de tiempo", flush=True)
     data = timeline.build(ep, meta); dp = os.path.join(work, "render_data.json"); json.dump(data, open(dp, "w"))
     print(f"   duracion {data['total']:.1f}s, {len(data['frames'])} cuadros", flush=True)
-    print("3/4 audio", flush=True); audio.mix(data, os.path.join(work, "voices"), os.path.join(work, "audio.wav"))
+    print("3/4 audio", flush=True); audio.mix(data, os.path.join(work, "voices"), os.path.join(work, "audio.wav"), seed=datetime.date.fromisoformat(date).toordinal())
     print("4/4 render", flush=True)
     mp4 = os.path.join(out, name + ".mp4")
     render.render(dp, os.path.join(work, "scenes"), os.path.join(work, "audio.wav"), mp4, workers=a.workers)

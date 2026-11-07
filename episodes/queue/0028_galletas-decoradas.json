@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy me puso a decorar galletas 🍪 #shorts",
-  "description": "Es de noche y la cocina está cubierta de galletas decoradas. Hay una boda mañana.\n\n3 consejos para tu negocio:\n1. Personaliza para eventos\n2. Cobra el diseño\n3. Fecha límite para pedidos\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "Es de noche y la cocina está llena de cajas de galletas decoradas. Hay una boda mañana.\n\n3 consejos para tu negocio:\n1. Personaliza para eventos\n2. Cobra el diseño\n3. Fecha límite para pedidos\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué hay doscientas galletas con nombres?",
+   "text": "Clapy, ¿qué hay en todas estas cajas?",
    "shot": "wide",
    "pose": "shrug",
    "face": "shock",
@@ -33,7 +33,7 @@
   },
   {
    "who": "C",
-   "text": "Son para una boda. Mañana.",
+   "text": "Doscientas galletas para una boda. Mañana.",
    "shot": "c_cu",
    "pose": "shrug",
    "face": "confused",
@@ -87,7 +87,7 @@
   },
   {
    "who": "M",
-   "text": "¿Y por qué tienen los nombres de los novios?",
+   "text": "¿Y por qué tienen nombres?",
    "shot": "m_cu",
    "pose": "cross",
    "face": "sus",
@@ -196,7 +196,7 @@
   }
  ],
  "crowd": {
-  "type": "cake",
+  "type": "box",
   "count": 17
  }
 }

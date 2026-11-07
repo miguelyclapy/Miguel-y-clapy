@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy... ¿por qué hay doce personas esperando en mi videollamada?",
+   "text": "Clapy, ¿por qué mi compu dice Clases con Miguel?",
    "shot": "wide",
    "pose": "shrug",
    "face": "shock",
@@ -32,7 +32,7 @@
   },
   {
    "who": "C",
-   "text": "Son tus alumnos. Hoy empiezas a dar clases de guitarra.",
+   "text": "Porque hoy empiezas a dar clases de guitarra. Doce alumnos.",
    "shot": "c_cu",
    "pose": "think",
    "face": "sus",

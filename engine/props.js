@@ -28,7 +28,7 @@ function parcel(r) {
   const w = 0.6 + r() * 0.6, h = 0.4 + r() * 0.5, d = 0.5 + r() * 0.5;
   const b = box(w, h, d, std(0xffffff, { map: _tape, roughness: 0.9 }), 0.03); b.position.y = h / 2; g.add(b);
   if (r() < 0.6) { const lab = new THREE.Mesh(new THREE.PlaneGeometry(w * 0.4, h * 0.35), std(0xffffff)); lab.position.set(-w * 0.15, h * 0.55, d / 2 + 0.002); g.add(lab); }
-  return { g, scale: 1, update(t, ex, ph) { g.children[0].position.y = h / 2 + Math.abs(Math.sin(t * 7 + ph)) * 0.15 * ex; g.rotation.z = Math.sin(t * 9 + ph) * 0.05 * ex; } };
+  return { g, scale: 1, update() {} };   // las cajas son objetos: no se mueven
 }
 function cake(r) {
   const g = new THREE.Group(); const cols = [0xffc2d1, 0xfff1d6, 0x8a5a3a, 0xc9f0d0, 0xe0c8ff];
@@ -38,7 +38,7 @@ function cake(r) {
     const icing = new THREE.Mesh(new THREE.TorusGeometry(rad, 0.035, 8, 32), std(0xffffff, { roughness: 0.5 })); icing.rotation.x = Math.PI / 2; icing.position.y = y + 0.3; g.add(icing); y += 0.3; }
   const cherry = sph(0.06, std(0xd62839, { roughness: 0.3 })); cherry.position.y = y + 0.05; g.add(cherry);
   if (r() < 0.6) for (let k = 0; k < 3; k++) { const c = cyl(0.015, 0.015, 0.18, std([0x4db8ff, 0xffd36b, 0xff7a9a][k])); c.position.set(Math.cos(k * 2.1) * 0.15, y + 0.09, Math.sin(k * 2.1) * 0.15); g.add(c); }
-  return { g, scale: 1.1, update(t, ex, ph) { g.position.y = g.userData.baseY + Math.abs(Math.sin(t * 6 + ph)) * 0.1 * ex; } };
+  return { g, scale: 1.1, update() {} };   // los pasteles son objetos: no brincan
 }
 const MAKERS = { dog, box: parcel, cake };
 

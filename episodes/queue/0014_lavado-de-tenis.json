@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy convirtió mi tina en lavandería de tenis 👟 #shorts",
-  "description": "La tina de Miguel está llena de tenis enjabonados. Clapy abrió un lavado de tenis.\n\n3 consejos para tu negocio:\n1. Resuelve un problema molesto\n2. Pide fotos antes\n3. Recoge y entrega a domicilio\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "El baño de Miguel está lleno de cajas con tenis sucios. Clapy abrió un lavado de tenis.\n\n3 consejos para tu negocio:\n1. Resuelve un problema molesto\n2. Pide fotos antes\n3. Recoge y entrega a domicilio\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy... ¿por qué hay tenis en mi tina?",
+   "text": "Clapy, ¿qué hacen tantas cajas en mi baño?",
    "shot": "wide",
    "pose": "shrug",
    "face": "shock",
@@ -33,7 +33,7 @@
   },
   {
    "who": "C",
-   "text": "Dieciséis pares. Abrí tu lavado de tenis.",
+   "text": "Dieciséis pares de tenis sucios. Abrí tu lavado de tenis.",
    "shot": "c_cu",
    "pose": "shrug",
    "face": "confused",
@@ -42,7 +42,7 @@
   },
   {
    "who": "M",
-   "text": "¡Ahí me baño yo!",
+   "text": "¡¿En mi baño?!",
    "shot": "m_cu",
    "pose": "self",
    "face": "shock",
@@ -51,7 +51,7 @@
   },
   {
    "who": "C",
-   "text": "Y ellos también. Hoy están primero.",
+   "text": "La tina es perfecta. Hoy los tenis van primero.",
    "shot": "screen",
    "pose": "cross",
    "face": "sus",

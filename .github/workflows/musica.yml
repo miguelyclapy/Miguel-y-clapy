@@ -1,0 +1,28 @@
+name: Agregar musica de fondo
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Enlace de descarga del mp3"
+        required: true
+      name:
+        description: "Nombre del archivo (sin .mp3)"
+        required: true
+permissions:
+  contents: write
+jobs:
+  musica:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Descargar y guardar
+        env:
+          URL: ${{ inputs.url }}
+          NAME: ${{ inputs.name }}
+        run: |
+          mkdir -p assets/music
+          curl -sS -f -L -o "assets/music/${NAME}.mp3" "$URL"
+          ls -la assets/music
+          git config user.name "miguel-y-clapy-bot"; git config user.email "bot@users.noreply.github.com"
+          git add assets/music; git commit -m "Musica: ${NAME}"
+          git pull --rebase || true; git push

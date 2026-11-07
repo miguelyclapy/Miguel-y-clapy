@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué tengo seis correos de clientes?",
+   "text": "Clapy, ¿por qué mi compu dice Edición Miguel?",
    "shot": "wide",
    "pose": "hands_head",
    "face": "shock",
@@ -32,7 +32,7 @@
   },
   {
    "who": "C",
-   "text": "Porque ahora editas videos. Te conseguí seis negocios.",
+   "text": "Porque ahora editas videos. Te conseguí seis clientes.",
    "shot": "c_cu",
    "pose": "think",
    "face": "sus",

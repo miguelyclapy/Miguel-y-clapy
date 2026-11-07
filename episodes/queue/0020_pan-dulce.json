@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué hay trescientas conchas en la mesa?",
+   "text": "Clapy, ¿qué hay en todas estas cajas?",
    "shot": "wide",
    "pose": "point",
    "face": "shock",
@@ -33,7 +33,7 @@
   },
   {
    "who": "C",
-   "text": "Porque a las siete sale tu ruta de pan.",
+   "text": "Trescientas conchas. A las siete sale tu ruta de pan.",
    "shot": "c_cu",
    "pose": "shrug",
    "face": "confused",

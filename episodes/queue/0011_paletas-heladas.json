@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué el refri está lleno de paletas?",
+   "text": "Clapy, ¿qué hacen todas estas hieleras en la cocina?",
    "shot": "wide",
    "pose": "hands_head",
    "face": "shock",
@@ -33,7 +33,7 @@
   },
   {
    "who": "C",
-   "text": "Doscientas. Mañana empiezas a vender.",
+   "text": "Doscientas paletas. Mañana empiezas a vender.",
    "shot": "c_cu",
    "pose": "think",
    "face": "sus",

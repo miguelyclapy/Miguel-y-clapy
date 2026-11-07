@@ -3,6 +3,18 @@ import numpy as np, soundfile as sf, random, wave
 
 SR = 44100
 
+import os, glob, subprocess
+MUSIC_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "music")
+
+def music_file(seed):
+    """Elige una pista de assets/music (cambia segun el episodio) y la deja en mono 44.1k normalizada."""
+    files = sorted(glob.glob(os.path.join(MUSIC_DIR, "*.mp3")) + glob.glob(os.path.join(MUSIC_DIR, "*.wav")))
+    if not files: return None
+    f = files[seed % len(files)]
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", f, "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"], capture_output=True, check=True).stdout
+    a = np.frombuffer(raw, np.float32).astype(np.float64)
+    return a / (np.sqrt(np.mean(a ** 2)) + 1e-9) * 0.12
+
 def mix(data, voice_dir, out_wav, seed=11):
     tl, total = data["tl"], data["total"]
     N = int((total + 0.2) * SR); voice = np.zeros(N); music = np.zeros(N); sfx = np.zeros(N)
@@ -23,7 +35,7 @@ def mix(data, voice_dir, out_wav, seed=11):
     def pop(p):
         n = int(0.09 * SR); t = np.arange(n) / SR; return np.sin(2 * np.pi * (300 * p + 900 * np.exp(-t * 40)) * t) * env(n, 0.002, 0.3) * 0.35
     for L in tl:
-        if L.get("excite"):
+        if L.get("excite") and crowd == "dog":   # solo los perros hacen ruido; cajas y pasteles son objetos
             for _ in range(9 if L["i"] == 0 else 14):
                 t0 = L["start"] + rnd.uniform(0, 1.6 if L["i"] == 0 else 2.6) + (0 if L["i"] == 0 else 0.6)
                 add(sfx, t0, (bark(rnd.uniform(0.8, 1.5)) if crowd == "dog" else pop(rnd.uniform(0.8, 1.6))) * rnd.uniform(0.4, 1.0))
@@ -49,6 +61,10 @@ def mix(data, voice_dir, out_wav, seed=11):
             if b % 4 == 0: kn = int(0.18 * SR); kt = np.arange(kn) / SR; add(music, bt, np.sin(2 * np.pi * (55 + 90 * np.exp(-kt * 30)) * kt) * np.exp(-kt * 14) * 0.22)
             hn = int(0.04 * SR); h = np.diff(rng.normal(0, 1, hn), prepend=0); add(music, bt, h * np.exp(-np.arange(hn) / SR * 90) * 0.018)
         t += seg; ci += 1
+    track = music_file(seed)
+    if track is not None:   # pista real (lo-fi relajante); la sintetizada queda solo de respaldo
+        reps = int(np.ceil(N / len(track))) + 1; music = np.tile(track, reps)[:N] * 0.32
+        fi = int(1.0 * SR); music[:fi] *= np.linspace(0, 1, fi)
     k = int(0.15 * SR); dk = np.convolve(np.abs(voice), np.ones(k) / k, mode="same"); dk = 1 - 0.45 * np.minimum(1, dk * 8)
     m = voice + music * dk * 0.75 + sfx * 0.8; fade = int(0.6 * SR); m[-fade:] *= np.linspace(1, 0, fade)
     m /= max(1e-9, np.abs(m).max()) / 0.89

@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy convirtió mi sala en un vivero 🪴 #shorts",
-  "description": "Hay plantas en el sillón, en la mesa y en la tele. Clapy abrió un vivero en la sala.\n\n3 consejos para tu negocio:\n1. Explica cómo cuidarlas\n2. Vende a quien recién se muda\n3. Reproduce tu inventario\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "Miguel prende la tele y descubre que Clapy abrió un vivero en su sala.\n\n3 consejos para tu negocio:\n1. Explica cómo cuidarlas\n2. Vende a quien recién se muda\n3. Reproduce tu inventario\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué hay una planta en mi control de la tele?",
+   "text": "Clapy, ¿por qué mi tele dice Vivero Miguel?",
    "shot": "wide",
    "pose": "hands_head",
    "face": "shock",
@@ -32,7 +32,7 @@
   },
   {
    "who": "C",
-   "text": "Es un suculento. Bienvenido a tu vivero.",
+   "text": "Porque abrí tu vivero. Las plantas llegan hoy.",
    "shot": "c_cu",
    "pose": "think",
    "face": "sus",
@@ -50,7 +50,7 @@
   },
   {
    "who": "C",
-   "text": "Ahora sí. Treinta y cinco plantas a la venta.",
+   "text": "Ahora sí. Treinta y cinco plantas ya están vendidas.",
    "shot": "screen",
    "pose": "cross",
    "face": "sus",
@@ -165,7 +165,7 @@
   },
   {
    "who": "M",
-   "text": "Clapy... ¿por qué tengo una maceta en la cabeza?",
+   "text": "Clapy, ¿y dónde vamos a poner treinta y cinco plantas?",
    "shot": "m_ms",
    "pose": "point",
    "face": "angry",
@@ -177,7 +177,7 @@
   },
   {
    "who": "C",
-   "text": "Exhibidor móvil. Sonríe, hay clientes.",
+   "text": "En tu cuarto. Tú duermes en el sillón.",
    "shot": "wide",
    "pose": "shrug",
    "face": "happy",
