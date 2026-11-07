@@ -1,0 +1,202 @@
+{
+ "title": "pan-dulce",
+ "room": "comedor",
+ "time": "day",
+ "screen": {
+  "title": "Panadería Miguel",
+  "subtitle": "Conchas · $14",
+  "icon": "cake"
+ },
+ "youtube": {
+  "title": "Clapy me puso a vender pan dulce 🥐 #shorts",
+  "description": "La mesa está llena de conchas calientitas. Clapy ya organizó la ruta de la mañana.\n\n3 consejos para tu negocio:\n1. Haz rutas fijas\n2. Vende cerca de tu casa\n3. Escucha lo que piden\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#pandulce",
+   "#conchas"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay trescientas conchas en la mesa?",
+   "shot": "wide",
+   "pose": "point",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Porque a las siete sale tu ruta de pan.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡¿Mi ruta?!",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Bicicleta, canasta y campanita. Ya te la compré.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "300 piezas hoy",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Son las seis de la mañana!",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "300 piezas hoy",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Perfecto. Tienes una hora para desayunar. Una concha.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "300 piezas hoy",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y a dónde llevo el pan?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "300 piezas hoy",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "A la misma ruta, a la misma hora. La gente se acostumbra y te espera.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Ruta de las 7 am",
+    "kind": "check"
+   },
+   "tag": "1/3 · Haz rutas fijas"
+  },
+  {
+   "who": "M",
+   "text": "¿Como el del gas?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Ruta de las 7 am",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Igual. Y solo vendes en cinco calles cerca. Menos camino, más ventas.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Calles atendidas",
+    "kind": "slots",
+    "n": 5,
+    "note": "5 calles a la redonda"
+   },
+   "tag": "2/3 · Vende cerca de tu casa"
+  },
+  {
+   "who": "M",
+   "text": "¿Y si quieren otro pan?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Calles atendidas",
+    "kind": "slots",
+    "n": 5,
+    "note": "5 calles a la redonda"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ya me dijeron que quieren orejas. Lo que pide el cliente, lo agregamos. Así crece el menú.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · Pidieron orejas",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Escucha lo que piden"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, ¿y la campanita era necesaria?",
+   "shot": "m_ms",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · Pidieron orejas",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Totalmente. Ahora todo el barrio sabe que eres tú.",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "AGOTADO",
+    "kind": "stamp",
+    "lines": [
+     "Calles atendidas",
+     "★ 4.9 · Pidieron orejas"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}

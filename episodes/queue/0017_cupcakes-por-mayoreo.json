@@ -1,0 +1,202 @@
+{
+ "title": "cupcakes-por-mayoreo",
+ "room": "comedor",
+ "time": "night",
+ "screen": {
+  "title": "Cupcakes Miguel",
+  "subtitle": "Mayoreo para cafeterías",
+  "icon": "cake"
+ },
+ "youtube": {
+  "title": "Clapy le vende cupcakes a cafeterías 🧁 #shorts",
+  "description": "Cientos de cupcakes en la cocina. Clapy no le vende a personas: le vende a negocios.\n\n3 consejos para tu negocio:\n1. Vende al mayoreo\n2. Pedidos fijos cada semana\n3. Contrato sencillo por escrito\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#cupcakes",
+   "#mayoreo"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay doscientos cuarenta cupcakes?",
+   "shot": "wide",
+   "pose": "point",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Cuatro cafeterías. Sesenta cada una.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡¿Cafeterías?!",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Tus nuevos clientes. Ellos venden, tú solo horneas.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "4 cafeterías clientes",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué no se los vendo yo a la gente?",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "4 cafeterías clientes",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Porque vender uno por uno cansa. Vender sesenta de golpe, no.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "4 cafeterías clientes",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "Pero gano menos por cada uno.",
+   "shot": "m_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "4 cafeterías clientes",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Un poquito menos. Pero vendes mucho más. Eso es el mayoreo.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Pedido: 60 por cafetería",
+    "kind": "check"
+   },
+   "tag": "1/3 · Vende al mayoreo"
+  },
+  {
+   "who": "M",
+   "text": "Ok, eso tiene sentido.",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Pedido: 60 por cafetería",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y cada lunes, el mismo pedido. Sabes cuánto vas a ganar antes de empezar la semana.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Entrega fija: lunes",
+    "kind": "slots",
+    "n": 4,
+    "note": "Cada semana"
+   },
+   "tag": "2/3 · Pedidos fijos cada semana"
+  },
+  {
+   "who": "M",
+   "text": "¿Y si un día no me quieren pagar?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Entrega fija: lunes",
+    "kind": "slots",
+    "n": 4,
+    "note": "Cada semana"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Todo está por escrito. Precio, cantidad y día. Sencillo, pero firmado.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.8 · Acuerdo firmado",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Contrato sencillo por escrito"
+  },
+  {
+   "who": "M",
+   "text": "¿Yo firmé un contrato?",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.8 · Acuerdo firmado",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Con tu huella. Estabas dormido. Era más fácil.",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "CONTRATO",
+    "kind": "stamp",
+    "lines": [
+     "Entrega fija: lunes",
+     "★ 4.8 · Acuerdo firmado"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "cake",
+  "count": 17
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "title": "cajas-sorpresa",
+ "room": "sala",
+ "time": "day",
+ "screen": {
+  "title": "Caja Sorpresa Miguel",
+  "subtitle": "Desde $250",
+  "icon": "box"
+ },
+ "youtube": {
+  "title": "Clapy vende cajas sorpresa desde mi sala 🎁 #shorts",
+  "description": "Miguel no sabe qué hay en las cajas. Los clientes tampoco. Clapy dice que ese es el negocio.\n\n3 consejos para tu negocio:\n1. Elige un tema\n2. El valor debe superar el precio\n3. Que se vea bien en video\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#cajasorpresa",
+   "#regalos"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿qué hay en todas esas cajas?",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Sorpresas. Abrí tu tienda de cajas sorpresa.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¿Y qué hay adentro?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Si te digo, deja de ser sorpresa.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "45 cajas vendidas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Soy el dueño!",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "45 cajas vendidas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Por eso menos te digo.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "45 cajas vendidas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y qué le metes a una caja sorpresa?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "45 cajas vendidas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Un tema. Esta es noche de películas: palomitas, dulces y calcetines calientitos.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Tema: noche de películas",
+    "kind": "check"
+   },
+   "tag": "1/3 · Elige un tema"
+  },
+  {
+   "who": "M",
+   "text": "Eso suena muy bien.",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Tema: noche de películas",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y lo de adentro vale más que lo que pagas. Así el cliente siente que ganó.",
+   "shot": "screen",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "Contenido: vale $380",
+    "kind": "slots",
+    "n": 3,
+    "note": "Precio: $250"
+   },
+   "tag": "2/3 · El valor debe superar el precio"
+  },
+  {
+   "who": "M",
+   "text": "¿Y cómo te enteras si les gustó?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Contenido: vale $380",
+    "kind": "slots",
+    "n": 3,
+    "note": "Precio: $250"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Graban cuando la abren. Veinte videos ya. Es publicidad gratis.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · 20 videos de clientes",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Que se vea bien en video"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, ¿me regalas una?",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · 20 videos de clientes",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Claro. Son doscientos cincuenta. Sorpresa.",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "ENVIADO",
+    "kind": "stamp",
+    "lines": [
+     "Contenido: vale $380",
+     "★ 4.9 · 20 videos de clientes"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}

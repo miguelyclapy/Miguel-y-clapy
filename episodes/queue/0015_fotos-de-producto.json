@@ -1,0 +1,196 @@
+{
+ "title": "fotos-de-producto",
+ "room": "sala",
+ "time": "night",
+ "screen": {
+  "title": "Foto Miguel",
+  "subtitle": "Fotos para tu tienda · $400",
+  "icon": "star"
+ },
+ "youtube": {
+  "title": "Clapy me puso a tomar fotos de productos 📸 #shorts",
+  "description": "La sala de Miguel ahora es un estudio fotográfico. Clapy le consiguió clientes.\n\n3 consejos para tu negocio:\n1. Usa lo que ya tienes\n2. Fondo limpio\n3. Entrega en paquetes\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#fotografia",
+   "#emprendimiento"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué mi sala tiene una sábana blanca colgada?",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Es tu estudio de fotos. Ya tienes ocho clientes.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡Yo no tengo cámara!",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "angry",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Tienes celular. Con eso empiezas.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "8 tiendas como clientes",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿En serio basta un celular?",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "8 tiendas como clientes",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Para empezar, sí. La cámara cara la compras con lo que ganes.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "8 tiendas como clientes",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué la sábana?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "8 tiendas como clientes",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Fondo limpio. Lo que importa es el producto, no tu sillón.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Equipo: tu celular",
+    "kind": "check"
+   },
+   "tag": "1/3 · Usa lo que ya tienes"
+  },
+  {
+   "who": "M",
+   "text": "Mi sillón es muy bonito.",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "Equipo: tu celular",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y vendo paquetes de diez fotos: ocho en blanco y dos bonitas. El cliente compra más y tú trabajas una sola vez.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Paquete: 10 fotos",
+    "kind": "slots",
+    "n": 5,
+    "note": "Fondo blanco + 2 ambientadas"
+   },
+   "tag": "2/3 · Fondo limpio"
+  },
+  {
+   "who": "M",
+   "text": "¿Y funcionan?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Paquete: 10 fotos",
+    "kind": "slots",
+    "n": 5,
+    "note": "Fondo blanco + 2 ambientadas"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Tres tiendas ya vendieron más esta semana. Por eso las reseñas.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · Ventas subieron",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Entrega en paquetes"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, esa es mi cena. ¿Por qué le estás tomando foto?",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · Ventas subieron",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Un restaurante también es cliente. Come después.",
+   "shot": "wide",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "ENTREGADO",
+    "kind": "stamp",
+    "lines": [
+     "Paquete: 10 fotos",
+     "★ 4.9 · Ventas subieron"
+    ]
+   },
+   "tail": 2.6
+  }
+ ]
+}

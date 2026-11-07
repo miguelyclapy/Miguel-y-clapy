@@ -1,0 +1,202 @@
+{
+ "title": "estetica-canina",
+ "room": "bano",
+ "time": "night",
+ "screen": {
+  "title": "Estética Canina Miguel",
+  "subtitle": "Baño y corte · $180",
+  "icon": "paw"
+ },
+ "youtube": {
+  "title": "Clapy abrió una estética canina en mi baño 🐩 #shorts",
+  "description": "Miguel abre la puerta del baño y hay catorce perros esperando turno.\n\n3 consejos para tu negocio:\n1. Trabaja con citas\n2. Cobra extras aparte\n3. Publica el antes y después\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#perros",
+   "#esteticacanina"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy... ¿por qué hay catorce perros en mi baño?",
+   "shot": "wide",
+   "pose": "point",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Vienen a su corte. Abrí tu estética canina.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡¿En mi baño?!",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Tiene tina, agua caliente y un patito. Es perfecto.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "14 perros con cita",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Ese patito es mío!",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "14 perros con cita",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ahora es parte del servicio premium.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "14 perros con cita",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué llegaron todos al mismo tiempo?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "14 perros con cita",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "No. Cada uno tiene cita cada cuarenta minutos. El desorden lo hiciste tú al abrir la puerta.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Citas cada 40 minutos",
+    "kind": "check"
+   },
+   "tag": "1/3 · Trabaja con citas"
+  },
+  {
+   "who": "M",
+   "text": "Perdón...",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "Citas cada 40 minutos",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y el baño es el servicio base. Uñas y moño se cobran aparte. Ahí está la ganancia.",
+   "shot": "screen",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "Extras: uñas y moño",
+    "kind": "slots",
+    "n": 2,
+    "note": "+$40 cada uno"
+   },
+   "tag": "2/3 · Cobra extras aparte"
+  },
+  {
+   "who": "M",
+   "text": "¿Los perros pagan extra por un moño?",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "Extras: uñas y moño",
+    "kind": "slots",
+    "n": 2,
+    "note": "+$40 cada uno"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Sus dueños sí. Sobre todo cuando ven la foto del antes y después.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · 14 fotos antes/después",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Publica el antes y después"
+  },
+  {
+   "who": "M",
+   "text": "¿Y quién los va a bañar?",
+   "shot": "m_ms",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · 14 fotos antes/después",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Tú. Ya estás mojado, aprovecha.",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "LISTOS",
+    "kind": "stamp",
+    "lines": [
+     "Extras: uñas y moño",
+     "★ 4.9 · 14 fotos antes/después"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "dog",
+  "count": 14
+ }
+}

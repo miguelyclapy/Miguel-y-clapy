@@ -1,0 +1,202 @@
+{
+ "title": "reventa-de-tenis",
+ "room": "cuarto",
+ "time": "night",
+ "screen": {
+  "title": "Tenis Miguel",
+  "subtitle": "Originales · revisados",
+  "icon": "box"
+ },
+ "youtube": {
+  "title": "Clapy llenó mi cuarto de tenis para revender 👟 #shorts",
+  "description": "El cuarto de Miguel es una torre de cajas de tenis. Clapy ya los está revendiendo.\n\n3 consejos para tu negocio:\n1. Revisa que sean originales\n2. Conoce tu margen\n3. No inviertas todo de golpe\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#tenis",
+   "#reventa"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué no puedo ver mi cama?",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Está debajo de veintidós pares de tenis. Abrí tu reventa.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡¿Veintidós?!",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Bueno, dieciocho. Cuatro ya los vendí mientras dormías.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "22 pares en inventario",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y de dónde sacaste el dinero?",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "22 pares en inventario",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "De tu alcancía de cochinito. Ahora es inversionista.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "22 pares en inventario",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y si son piratas?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "22 pares en inventario",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Revisé etiquetas, costuras y la caja de cada par. Un pirata te quita clientes para siempre.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Verificados: 22/22",
+    "kind": "check"
+   },
+   "tag": "1/3 · Revisa que sean originales"
+  },
+  {
+   "who": "M",
+   "text": "¿Y cuánto ganamos?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "Verificados: 22/22",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Trescientos cincuenta por par. Y solo compro cinco a la vez. Si algo sale mal, no pierdes todo.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Inversión: 5 pares a la vez",
+    "kind": "slots",
+    "n": 5,
+    "note": "Ganancia por par: $350"
+   },
+   "tag": "2/3 · Conoce tu margen"
+  },
+  {
+   "who": "M",
+   "text": "¿Entonces por qué hay veintidós?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Inversión: 5 pares a la vez",
+    "kind": "slots",
+    "n": 5,
+    "note": "Ganancia por par: $350"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Porque los primeros cinco se vendieron en una hora. Ya tenemos reseñas.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.8 · Originales garantizados",
+    "kind": "stars"
+   },
+   "tag": "3/3 · No inviertas todo de golpe"
+  },
+  {
+   "who": "M",
+   "text": "¿Y mi cama?",
+   "shot": "m_ms",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.8 · Originales garantizados",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Llega el lunes. Con el dinero de los tenis.",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "VENDIDOS",
+    "kind": "stamp",
+    "lines": [
+     "Inversión: 5 pares a la vez",
+     "★ 4.8 · Originales garantizados"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}

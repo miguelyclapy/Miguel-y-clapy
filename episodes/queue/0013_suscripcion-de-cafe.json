@@ -1,0 +1,202 @@
+{
+ "title": "suscripcion-de-cafe",
+ "room": "comedor",
+ "time": "night",
+ "screen": {
+  "title": "Café Miguel",
+  "subtitle": "Suscripción · $299 al mes",
+  "icon": "money"
+ },
+ "youtube": {
+  "title": "Clapy me abrió una suscripción de café ☕ #shorts",
+  "description": "Miguel solo quería un café de noche. Clapy ya tiene 50 suscriptores que reciben café cada mes.\n\n3 consejos para tu negocio:\n1. Cobra cada mes\n2. Cuida a tus suscriptores\n3. Facilita cancelar\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#cafe",
+   "#suscripcion"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay cincuenta cajas de café en la mesa?",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Son los envíos del mes. Tienes cincuenta suscriptores.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¿Suscriptores de qué?",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "angry",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "De café. Cada mes les llega una bolsa a su casa.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "50 suscriptores",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Yo tomo café soluble!",
+   "shot": "m_ms",
+   "pose": "cross",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "50 suscriptores",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Por eso no eres el catador.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "50 suscriptores",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué suscripción?",
+   "shot": "m_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "50 suscriptores",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Porque es dinero cada mes sin volver a vender. El cliente paga y se olvida.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Cobro automático mensual",
+    "kind": "check"
+   },
+   "tag": "1/3 · Cobra cada mes"
+  },
+  {
+   "who": "M",
+   "text": "Eso suena a trampa.",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Cobro automático mensual",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "No si lo cuidas. Cada tres meses les mando un regalo. Que sientan que vale la pena quedarse.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Regalo sorpresa cada 3 meses",
+    "kind": "slots",
+    "n": 3,
+    "note": "Para los que se quedan"
+   },
+   "tag": "2/3 · Cuida a tus suscriptores"
+  },
+  {
+   "who": "M",
+   "text": "¿Y si alguien quiere irse?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Regalo sorpresa cada 3 meses",
+    "kind": "slots",
+    "n": 3,
+    "note": "Para los que se quedan"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Cancela con un botón. Así confían en entrar. Y casi nadie se va.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · Cancelar es fácil",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Facilita cancelar"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, ¿me das un café?",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · Cancelar es fácil",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Claro. Son doscientos noventa y nueve al mes.",
+   "shot": "wide",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "ENVIADO",
+    "kind": "stamp",
+    "lines": [
+     "Regalo sorpresa cada 3 meses",
+     "★ 4.9 · Cancelar es fácil"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}

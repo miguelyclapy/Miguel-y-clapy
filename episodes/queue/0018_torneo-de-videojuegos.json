@@ -1,0 +1,196 @@
+{
+ "title": "torneo-de-videojuegos",
+ "room": "cuarto",
+ "time": "night",
+ "screen": {
+  "title": "Torneo Miguel",
+  "subtitle": "Inscripción $50",
+  "icon": "money"
+ },
+ "youtube": {
+  "title": "Clapy organizó un torneo de videojuegos en mi cuarto 🎮 #shorts",
+  "description": "Miguel quería jugar solo. Clapy organizó un torneo con 32 jugadores.\n\n3 consejos para tu negocio:\n1. Cobra inscripción\n2. Consigue patrocinadores\n3. Transmite en vivo\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#videojuegos",
+   "#torneo"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué mi tele dice Torneo Miguel?",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Porque esta noche juegan treinta y dos personas.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡¿En mi cuarto?!",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "angry",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "En línea. Tú eres el organizador.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "32 jugadores inscritos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Yo solo quería jugar!",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "32 jugadores inscritos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y vas a jugar. Contra el campeón. Al final.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "32 jugadores inscritos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y qué ganamos nosotros?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "32 jugadores inscritos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Cada jugador pagó cincuenta pesos. Una parte es el premio, otra es tuya.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Inscripción: $50",
+    "kind": "check"
+   },
+   "tag": "1/3 · Cobra inscripción"
+  },
+  {
+   "who": "M",
+   "text": "¿Y alcanza para el premio?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "Inscripción: $50",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Pedí patrocinio a la tienda y a la papelería. Ellos ponen el premio, nosotros los mencionamos.",
+   "shot": "screen",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "Patrocinadores: 2",
+    "kind": "slots",
+    "n": 2,
+    "note": "Tienda de la esquina y papelería"
+   },
+   "tag": "2/3 · Consigue patrocinadores"
+  },
+  {
+   "who": "M",
+   "text": "¿Y si nadie lo ve?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Patrocinadores: 2",
+    "kind": "slots",
+    "n": 2,
+    "note": "Tienda de la esquina y papelería"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ya hay trescientos viendo en vivo. Más gente, más patrocinadores el próximo mes.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · 300 viendo en vivo",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Transmite en vivo"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, ¿quién es el campeón?",
+   "shot": "m_ms",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · 300 viendo en vivo",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Un niño de nueve años. Suerte, Miguel.",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "CAMPEÓN",
+    "kind": "stamp",
+    "lines": [
+     "Patrocinadores: 2",
+     "★ 4.9 · 300 viendo en vivo"
+    ]
+   },
+   "tail": 2.6
+  }
+ ]
+}

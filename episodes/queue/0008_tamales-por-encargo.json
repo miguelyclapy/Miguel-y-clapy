@@ -1,0 +1,196 @@
+{
+ "title": "tamales-por-encargo",
+ "room": "comedor",
+ "time": "night",
+ "screen": {
+  "title": "Tamales Miguel",
+  "subtitle": "Docena · $180",
+  "icon": "money"
+ },
+ "youtube": {
+  "title": "Clapy me puso a vender tamales 🫔 #shorts",
+  "description": "Es de noche y la cocina de Miguel huele a masa. Clapy ya aceptó los pedidos del fin de semana.\n\n3 consejos para tu negocio:\n1. Pide anticipo\n2. Menú corto\n3. Entrega a la hora prometida\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#tamales",
+   "#comidamexicana"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay una olla tamalera en la estufa?",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Porque mañana entregamos treinta docenas de tamales.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡¿Treinta docenas?!",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Trescientos sesenta tamales. Ya están pagados a la mitad.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "30 docenas encargadas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Yo nunca he hecho un tamal!",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "30 docenas encargadas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Hoy haces trescientos sesenta. Aprendes rápido.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "30 docenas encargadas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y si luego nadie viene por ellos?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "30 docenas encargadas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Por eso cobré la mitad por adelantado. Nadie aparta y desaparece.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Anticipo del 50% recibido",
+    "kind": "check"
+   },
+   "tag": "1/3 · Pide anticipo"
+  },
+  {
+   "who": "M",
+   "text": "Eres un genio malvado.",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Anticipo del 50% recibido",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y solo tres sabores: verde, rojo y dulce. Menú corto, cocina rápida.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Menú: verde, rojo, dulce",
+    "kind": "slots",
+    "n": 3,
+    "note": "Solo tres sabores"
+   },
+   "tag": "2/3 · Menú corto"
+  },
+  {
+   "who": "M",
+   "text": "¿Y a qué hora los entregamos?",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "Menú: verde, rojo, dulce",
+    "kind": "slots",
+    "n": 3,
+    "note": "Solo tres sabores"
+   }
+  },
+  {
+   "who": "C",
+   "text": "A las ocho en punto. Llegar a tiempo vale más que cualquier anuncio.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 5.0 · Llegaron calientitos",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Entrega a la hora prometida"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, ¿y tú qué vas a hacer mientras?",
+   "shot": "m_ms",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "★ 5.0 · Llegaron calientitos",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Probar. Alguien tiene que cuidar la calidad.",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "ENTREGADO",
+    "kind": "stamp",
+    "lines": [
+     "Menú: verde, rojo, dulce",
+     "★ 5.0 · Llegaron calientitos"
+    ]
+   },
+   "tail": 2.6
+  }
+ ]
+}

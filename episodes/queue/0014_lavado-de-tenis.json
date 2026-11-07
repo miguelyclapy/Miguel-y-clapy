@@ -1,0 +1,202 @@
+{
+ "title": "lavado-de-tenis",
+ "room": "bano",
+ "time": "day",
+ "screen": {
+  "title": "Lavado Miguel",
+  "subtitle": "Tenis como nuevos · $120",
+  "icon": "star"
+ },
+ "youtube": {
+  "title": "Clapy convirtió mi tina en lavandería de tenis 👟 #shorts",
+  "description": "La tina de Miguel está llena de tenis enjabonados. Clapy abrió un lavado de tenis.\n\n3 consejos para tu negocio:\n1. Resuelve un problema molesto\n2. Pide fotos antes\n3. Recoge y entrega a domicilio\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#tenis",
+   "#servicios"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy... ¿por qué hay tenis en mi tina?",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Dieciséis pares. Abrí tu lavado de tenis.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡Ahí me baño yo!",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Y ellos también. Hoy están primero.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "16 pares por lavar",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Eso no es justo!",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "16 pares por lavar",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ellos pagan. Tú no.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "16 pares por lavar",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Quién paga por lavar unos tenis?",
+   "shot": "m_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "16 pares por lavar",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Todos los que no quieren hacerlo. Si algo da flojera, alguien paga por no hacerlo.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Foto del antes: obligatoria",
+    "kind": "check"
+   },
+   "tag": "1/3 · Resuelve un problema molesto"
+  },
+  {
+   "who": "M",
+   "text": "Cierto, yo nunca lavo los míos.",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Foto del antes: obligatoria",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Lo sé. Están en la lista. Y antes de lavar, foto. Si había una mancha, ya estaba. Sin pleitos.",
+   "shot": "screen",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "Rutas: recoge y entrega",
+    "kind": "slots",
+    "n": 4,
+    "note": "Martes y viernes"
+   },
+   "tag": "2/3 · Pide fotos antes"
+  },
+  {
+   "who": "M",
+   "text": "¿Y cómo llegan aquí?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Rutas: recoge y entrega",
+    "kind": "slots",
+    "n": 4,
+    "note": "Martes y viernes"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Paso por ellos y los devuelvo. El cliente no se mueve de su sillón. Por eso nos califica con cinco.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "★ 5.0 · Parecen nuevos",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Recoge y entrega a domicilio"
+  },
+  {
+   "who": "M",
+   "text": "¿Y quién los va a recoger?",
+   "shot": "m_ms",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "★ 5.0 · Parecen nuevos",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Tú. En bici. Ya te lavé los tenis para que te veas profesional.",
+   "shot": "wide",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "LIMPIOS",
+    "kind": "stamp",
+    "lines": [
+     "Rutas: recoge y entrega",
+     "★ 5.0 · Parecen nuevos"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}

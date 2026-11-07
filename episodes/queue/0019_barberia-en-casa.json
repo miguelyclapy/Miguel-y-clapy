@@ -1,0 +1,196 @@
+{
+ "title": "barberia-en-casa",
+ "room": "bano",
+ "time": "night",
+ "screen": {
+  "title": "Barbería Miguel",
+  "subtitle": "Corte · $100",
+  "icon": "star"
+ },
+ "youtube": {
+  "title": "Clapy abrió una barbería en mi baño 💈 #shorts",
+  "description": "El espejo del baño ya tiene luces y una lista de citas. Miguel es el nuevo barbero.\n\n3 consejos para tu negocio:\n1. Practica con conocidos\n2. Recuerda a cada cliente\n3. Agenda la siguiente cita\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#barberia",
+   "#barbero"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay una silla de barbero en mi baño?",
+   "shot": "wide",
+   "pose": "point",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Porque hoy abriste tu barbería. Nueve citas.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡Yo no sé cortar el pelo!",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "angry",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Sabes. Llevas veinte cortes.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "9 citas esta semana",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Veinte? ¿A quién?",
+   "shot": "m_ms",
+   "pose": "cross",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "9 citas esta semana",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "A tus amigos. Con las fotos de la fiesta, todos te dieron permiso.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "9 citas esta semana",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "Ah... por eso todos traen el mismo corte.",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "9 citas esta semana",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Exacto. Practicar con conocidos es gratis. Equivocarte con clientes cuesta.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Práctica: 20 cortes a amigos",
+    "kind": "check"
+   },
+   "tag": "1/3 · Practica con conocidos"
+  },
+  {
+   "who": "M",
+   "text": "Bueno, tiene lógica.",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "Práctica: 20 cortes a amigos",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y anoto cómo le gusta el corte a cada uno. Que no tenga que explicarte otra vez.",
+   "shot": "screen",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "Próxima cita agendada",
+    "kind": "slots",
+    "n": 3,
+    "note": "En 3 semanas"
+   },
+   "tag": "2/3 · Recuerda a cada cliente"
+  },
+  {
+   "who": "M",
+   "text": "¿Y cómo hacemos que regresen?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Próxima cita agendada",
+    "kind": "slots",
+    "n": 3,
+    "note": "En 3 semanas"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Antes de irse, ya tienen su siguiente cita. En tres semanas. Nadie tiene que acordarse.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.8 · 9 clientes regresan",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Agenda la siguiente cita"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, ¿y quién te corta a ti?",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.8 · 9 clientes regresan",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Yo no tengo pelo. Tengo piquitos. Se cuidan solos.",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "SIGUIENTE",
+    "kind": "stamp",
+    "lines": [
+     "Próxima cita agendada",
+     "★ 4.8 · 9 clientes regresan"
+    ]
+   },
+   "tail": 2.6
+  }
+ ]
+}

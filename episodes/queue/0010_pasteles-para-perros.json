@@ -1,0 +1,202 @@
+{
+ "title": "pasteles-para-perros",
+ "room": "sala",
+ "time": "day",
+ "screen": {
+  "title": "Pastelitos Peludos",
+  "subtitle": "Pasteles para perro · $150",
+  "icon": "paw"
+ },
+ "youtube": {
+  "title": "Clapy hace pasteles… para perros 🐶🎂 #shorts",
+  "description": "Doce perritos esperan en la sala. Es su fiesta de cumpleaños y Miguel es el pastelero.\n\n3 consejos para tu negocio:\n1. Busca un mercado poco atendido\n2. Haz tu producto seguro\n3. Vende la experiencia\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#perros",
+   "#pasteles"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay doce perros con gorrito de fiesta?",
+   "shot": "wide",
+   "pose": "point",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Es su cumpleaños. Abrí una pastelería para perros.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¿Los perros comen pastel?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Uno especial. Y sus dueños pagan muy bien por él.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "12 cumpleaños este mes",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Quién paga un pastel para perro?",
+   "shot": "m_ms",
+   "pose": "cross",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "12 cumpleaños este mes",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Doce personas. Este mes.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "12 cumpleaños este mes",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y no hay nadie más que lo venda?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "12 cumpleaños este mes",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Casi nadie. Por eso funciona. Hay mucha pastelería para personas y casi ninguna para ellos.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Ingredientes aptos para perros",
+    "kind": "check"
+   },
+   "tag": "1/3 · Busca un mercado poco atendido"
+  },
+  {
+   "who": "M",
+   "text": "¿Y es seguro?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Ingredientes aptos para perros",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Sin azúcar, sin chocolate. Lo primero es que el cliente esté bien. Aunque tenga cuatro patas.",
+   "shot": "screen",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "Paquete fiesta completo",
+    "kind": "slots",
+    "n": 3,
+    "note": "Pastel + gorrito + foto"
+   },
+   "tag": "2/3 · Haz tu producto seguro"
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué traen gorrito?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Paquete fiesta completo",
+    "kind": "slots",
+    "n": 3,
+    "note": "Pastel + gorrito + foto"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Porque no vendo un pastel, vendo una fiesta. Pastel, gorrito y foto. Eso es lo que recuerdan.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 5.0 · 12 perritos felices",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Vende la experiencia"
+  },
+  {
+   "who": "M",
+   "text": "Clapy... se están comiendo mi sillón.",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 5.0 · 12 perritos felices",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Eso no venía en el paquete. Te lo cobro aparte.",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "FIESTA",
+    "kind": "stamp",
+    "lines": [
+     "Paquete fiesta completo",
+     "★ 5.0 · 12 perritos felices"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "dog",
+  "count": 12
+ }
+}

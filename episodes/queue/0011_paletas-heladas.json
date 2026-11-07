@@ -1,0 +1,202 @@
+{
+ "title": "paletas-heladas",
+ "room": "comedor",
+ "time": "day",
+ "screen": {
+  "title": "Paletas Miguel",
+  "subtitle": "De agua $15 · de leche $20",
+  "icon": "money"
+ },
+ "youtube": {
+  "title": "Clapy llenó mi refri de paletas para vender 🍦 #shorts",
+  "description": "Miguel abre el refri buscando agua y solo encuentra paletas. Clapy ya las está vendiendo.\n\n3 consejos para tu negocio:\n1. Aprovecha la temporada\n2. Ubícate donde hay gente\n3. Prueba sabores en poca cantidad\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#paletas",
+   "#negociodesdecasa"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué el refri está lleno de paletas?",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Doscientas. Mañana empiezas a vender.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¿Y mi agua?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Está en una paleta de limón. Te la descuento del sueldo.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "200 paletas listas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Yo no tengo sueldo!",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "200 paletas listas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Exacto. Por eso trabajas.",
+   "shot": "c_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "smug",
+   "status": {
+    "text": "200 paletas listas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué ahorita?",
+   "shot": "m_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "200 paletas listas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Porque hace calor. Hay negocios que dependen de la temporada, y esta es la tuya.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Temporada de calor activa",
+    "kind": "check"
+   },
+   "tag": "1/3 · Aprovecha la temporada"
+  },
+  {
+   "who": "M",
+   "text": "¿Y dónde vendo?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Temporada de calor activa",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "En la cancha, los domingos. Vende donde ya está la gente, no esperes que te encuentre.",
+   "shot": "screen",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "Punto de venta: la cancha",
+    "kind": "slots",
+    "n": 4,
+    "note": "Domingos · 4 horas"
+   },
+   "tag": "2/3 · Ubícate donde hay gente"
+  },
+  {
+   "who": "M",
+   "text": "¿Y qué sabores?",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "Punto de venta: la cancha",
+    "kind": "slots",
+    "n": 4,
+    "note": "Domingos · 4 horas"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Probé diez en poquito. Ganó mango con chile. Ahora hacemos más de ese.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.8 · Mango con chile ganó",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Prueba sabores en poca cantidad"
+  },
+  {
+   "who": "M",
+   "text": "¿Y si se derriten?",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.8 · Mango con chile ganó",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Entonces corre. Es parte del cardio.",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "AGOTADO",
+    "kind": "stamp",
+    "lines": [
+     "Punto de venta: la cancha",
+     "★ 4.8 · Mango con chile ganó"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "title": "galletas-decoradas",
+ "room": "comedor",
+ "time": "night",
+ "screen": {
+  "title": "Galletas Miguel",
+  "subtitle": "Decoradas · desde $25",
+  "icon": "cake"
+ },
+ "youtube": {
+  "title": "Clapy me puso a decorar galletas 🍪 #shorts",
+  "description": "Es de noche y la cocina está cubierta de galletas decoradas. Hay una boda mañana.\n\n3 consejos para tu negocio:\n1. Personaliza para eventos\n2. Cobra el diseño\n3. Fecha límite para pedidos\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#galletas",
+   "#reposteria"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay doscientas galletas con nombres?",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Son para una boda. Mañana.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡¿Mañana?!",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "angry",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Tranquilo, ya solo faltan ciento noventa.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "200 galletas para boda",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Yo no sé decorar galletas!",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "200 galletas para boda",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Hace tres horas tampoco. Ya vas mejorando.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "200 galletas para boda",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué tienen los nombres de los novios?",
+   "shot": "m_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "200 galletas para boda",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Porque un evento paga más por algo hecho solo para ellos. Una galleta normal no.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Diseño personalizado: +$500",
+    "kind": "check"
+   },
+   "tag": "1/3 · Personaliza para eventos"
+  },
+  {
+   "who": "M",
+   "text": "¿Y cuánto más?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Diseño personalizado: +$500",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "El diseño se cobra aparte: quinientos. Tu idea también vale, no solo la harina.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Pedidos con 7 días",
+    "kind": "slots",
+    "n": 4,
+    "note": "Ni un día menos"
+   },
+   "tag": "2/3 · Cobra el diseño"
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué tan de última hora?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Pedidos con 7 días",
+    "kind": "slots",
+    "n": 4,
+    "note": "Ni un día menos"
+   }
+  },
+  {
+   "who": "C",
+   "text": "No es de última hora. Pidieron con siete días. Esa es la regla: nada urgente, nada mal hecho.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 5.0 · Los novios felices",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Fecha límite para pedidos"
+  },
+  {
+   "who": "M",
+   "text": "¿Entonces por qué apenas las estamos haciendo?",
+   "shot": "m_ms",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "★ 5.0 · Los novios felices",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Porque tú dormiste seis días.",
+   "shot": "wide",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "ENTREGADO",
+    "kind": "stamp",
+    "lines": [
+     "Pedidos con 7 días",
+     "★ 5.0 · Los novios felices"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "cake",
+  "count": 17
+ }
+}

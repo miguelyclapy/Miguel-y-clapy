@@ -1,0 +1,202 @@
+{
+ "title": "jabones-artesanales",
+ "room": "bano",
+ "time": "day",
+ "screen": {
+  "title": "Jabones Miguel",
+  "subtitle": "Artesanales · 3 x $120",
+  "icon": "star"
+ },
+ "youtube": {
+  "title": "Clapy convirtió mi baño en fábrica de jabones 🧼 #shorts",
+  "description": "El baño de Miguel huele a lavanda y está lleno de cajitas. Clapy abrió una jabonería.\n\n3 consejos para tu negocio:\n1. Cuida el empaque\n2. Ofrece combos\n3. Vende primero a conocidos\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#jabones",
+   "#artesanal"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué mi baño huele a spa?",
+   "shot": "wide",
+   "pose": "point",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Porque es una fábrica de jabones. Bienvenido a tu negocio.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡Es mi baño, no una fábrica!",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "angry",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Es las dos cosas. Ya hay cuarenta jabones pedidos.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "40 jabones en pedido",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y dónde me voy a bañar?",
+   "shot": "m_ms",
+   "pose": "cross",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "40 jabones en pedido",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "En la tina, con cuidado. Hay producto secándose.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "40 jabones en pedido",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Quién compra un jabón tan caro?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "40 jabones en pedido",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Quien lo ve bonito. Papel kraft, listón y una etiqueta. El empaque vende antes que el olor.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Empaque kraft con listón",
+    "kind": "check"
+   },
+   "tag": "1/3 · Cuida el empaque"
+  },
+  {
+   "who": "M",
+   "text": "¿Le pusiste listón a un jabón?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "Empaque kraft con listón",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y lo vendo en combo: tres por ciento veinte. Casi nadie se lleva solo uno.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Combo 3 x $120",
+    "kind": "slots",
+    "n": 3,
+    "note": "El 70% compra el combo"
+   },
+   "tag": "2/3 · Ofrece combos"
+  },
+  {
+   "who": "M",
+   "text": "¿Y a quién le vendiste?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Combo 3 x $120",
+    "kind": "slots",
+    "n": 3,
+    "note": "El 70% compra el combo"
+   }
+  },
+  {
+   "who": "C",
+   "text": "A tu tía, a tu primo y a tus vecinos. Primero conocidos, luego el mundo.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · Huele riquísimo",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Vende primero a conocidos"
+  },
+  {
+   "who": "M",
+   "text": "¿Mi tía sabe que el jefe soy yo?",
+   "shot": "m_ms",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · Huele riquísimo",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Sabe que el jefe soy yo. Tú eres el que los corta.",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "AGOTADO",
+    "kind": "stamp",
+    "lines": [
+     "Combo 3 x $120",
+     "★ 4.9 · Huele riquísimo"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}

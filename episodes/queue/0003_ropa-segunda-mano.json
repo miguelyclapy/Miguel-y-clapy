@@ -1,0 +1,202 @@
+{
+ "title": "ropa-segunda-mano",
+ "room": "sala",
+ "time": "night",
+ "screen": {
+  "title": "Bazar Miguel",
+  "subtitle": "Ropa de segunda · desde $60",
+  "icon": "box"
+ },
+ "youtube": {
+  "title": "Clapy vendió mi ropa por internet 👕 #shorts",
+  "description": "La sala está llena de cajas. Clapy convirtió el clóset de Miguel en una tienda.\n\n3 consejos para tu negocio:\n1. Lava y plancha antes de fotografiar\n2. Pon precios justos\n3. Envía en menos de 24 horas\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#ropa",
+   "#segundamano"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿qué hacen todas estas cajas en la sala?",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Son tus pedidos. Abrí un bazar con tu ropa.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¿Con MI ropa?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Con la que no te pones. Ya vendí dieciocho prendas.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "18 prendas vendidas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Esa sudadera era mi favorita!",
+   "shot": "m_ms",
+   "pose": "cross",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "18 prendas vendidas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "No la usabas desde 2019. Ella también merecía ser feliz.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "18 prendas vendidas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y quién va a querer ropa usada?",
+   "shot": "m_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "18 prendas vendidas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Todos, si llega limpia. La lavé, la planché y luego le tomé foto.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Todo lavado y planchado",
+    "kind": "check"
+   },
+   "tag": "1/3 · Lava y plancha antes de fotografiar"
+  },
+  {
+   "who": "M",
+   "text": "¿Tú planchas?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Todo lavado y planchado",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y empaco. Los pedidos de hoy salen antes de las doce. Envío rápido, cliente que regresa.",
+   "shot": "screen",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "Envíos de hoy: 4/4",
+    "kind": "slots",
+    "n": 4,
+    "note": "Salen antes de las 12"
+   },
+   "tag": "2/3 · Pon precios justos"
+  },
+  {
+   "who": "M",
+   "text": "¿Y cuánto cobraste?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Envíos de hoy: 4/4",
+    "kind": "slots",
+    "n": 4,
+    "note": "Salen antes de las 12"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Precio justo. Ni regalado ni de tienda. Por eso se vendió todo en una noche.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · Envío rapidísimo",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Envía en menos de 24 horas"
+  },
+  {
+   "who": "M",
+   "text": "¿Todo? ¿Qué me voy a poner mañana?",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · Envío rapidísimo",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ya te compré algo. En tu propio bazar.",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "VENDIDO",
+    "kind": "stamp",
+    "lines": [
+     "Envíos de hoy: 4/4",
+     "★ 4.9 · Envío rapidísimo"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}

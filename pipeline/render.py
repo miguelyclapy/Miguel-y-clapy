@@ -24,6 +24,41 @@ def wrap(c, text, maxw):
         else: cur = test
     lines.append(cur); return lines
 
+_CH = {}
+def chunks(c, text):
+    """Divide un texto largo en bloques de maximo 2 renglones (por frases, y si no, por palabras)."""
+    if text in _CH: return _CH[text]
+    import re
+    sent = [x for x in re.split(r"(?<=[.!?…])\s+", text) if x]
+    out, cur = [], ""
+    for x in sent:
+        test = (cur + " " + x).strip()
+        if len(wrap(c, test, 900)) <= 3: cur = test
+        else:
+            if cur: out.append(cur)
+            cur = x
+    if cur: out.append(cur)
+    res = []
+    for x in out:
+        if len(wrap(c, x, 900)) <= 3: res.append(x); continue
+        sub = [y for y in re.split(r"(?<=[,:;])\s+", x) if y]   # primero por comas
+        w = x.split() if len(sub) < 2 else None
+        if w:   # sin comas: partir en dos mitades parejas
+            h = len(x) / 2; acc = 0
+            for j, word in enumerate(w):
+                acc += len(word) + 1
+                if acc >= h: break
+            sub = [" ".join(w[:j + 1]), " ".join(w[j + 1:])]
+        cur = ""
+        for y in sub:
+            test = (cur + " " + y).strip()
+            if len(wrap(c, test, 900)) <= 3: cur = test
+            else:
+                if cur: res.append(cur)
+                cur = y
+        if cur: res.append(cur)
+    _CH[text] = res; return res
+
 def overlay(bgra, t, data):
     s = cairo.ImageSurface.create_for_data(memoryview(bgra), cairo.FORMAT_ARGB32, W, H); c = cairo.Context(s)
     g = cairo.RadialGradient(W / 2, H / 2, H * 0.3, W / 2, H / 2, H * 0.75); g.add_color_stop_rgba(0, 0, 0, 0, 0); g.add_color_stop_rgba(1, 0, 0, 0, 0.42)
@@ -38,8 +73,15 @@ def overlay(bgra, t, data):
         c.set_source_rgba(1, 0.35, 0.45, k); c.arc(-pw / 2 + 44, 0, 12, 0, 7); c.fill()
         c.set_source_rgba(1, 1, 1, k); c.move_to(-pw / 2 + 72, 14); c.show_text(L["tag"]); c.restore()
     c.select_font_face(FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); c.set_font_size(62)
-    k = ease((t - L["start"]) / 0.15)
-    for i, ln in enumerate(wrap(c, L["text"], 900)):
+    parts = chunks(c, L["text"])
+    v0 = L.get("vstart", L["start"]); v1 = max(v0 + 0.1, L["end"] - 0.3)
+    tot = sum(len(x) for x in parts); acc, ci = 0, 0
+    for ci, x in enumerate(parts):
+        acc += len(x)
+        if t < v0 + (v1 - v0) * acc / tot: break
+    ts = L["start"] if ci == 0 else v0 + (v1 - v0) * sum(len(x) for x in parts[:ci]) / tot
+    k = ease((t - ts) / 0.15)
+    for i, ln in enumerate(wrap(c, parts[ci], 900)):
         tw = c.text_extents(ln).x_advance; c.move_to(W / 2 - tw / 2, 470 + i * 78); c.text_path(ln)
         c.set_source_rgba(0, 0, 0, 0.7 * k); c.set_line_width(13); c.set_line_join(cairo.LINE_JOIN_ROUND); c.stroke_preserve()
         col = (1, 1, 1) if L["who"] == "M" else (1, 0.86, 0.7)

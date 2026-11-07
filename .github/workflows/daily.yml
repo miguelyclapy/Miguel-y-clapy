@@ -69,6 +69,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add episodes/done.txt || true
           git commit -m "Episodio hecho: ${{ steps.ep.outputs.name }}" || true
+          git pull --rebase || true
           git push || true
 
       - name: Publicar video para descargar (Release)

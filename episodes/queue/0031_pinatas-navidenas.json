@@ -1,0 +1,202 @@
+{
+ "title": "pinatas-navidenas",
+ "room": "sala",
+ "time": "night",
+ "screen": {
+  "title": "Piñatas Miguel",
+  "subtitle": "Posadas · desde $200",
+  "icon": "star"
+ },
+ "youtube": {
+  "title": "Clapy llenó mi sala de piñatas para las posadas 🪅 #shorts",
+  "description": "Diciembre llegó y la sala de Miguel está llena de piñatas. Clapy ya vendió todas para las posadas.\n\n3 consejos para tu negocio:\n1. Prepárate antes de la temporada\n2. Vende el paquete completo\n3. Aparta con anticipo\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#piñatas",
+   "#posadas"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay sesenta piñatas en mi sala?",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Porque ya empezaron las posadas. Todas están apartadas.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡¿Todas?!",
+   "shot": "m_cu",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Sesenta. Y siguen llegando mensajes.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "60 piñatas apartadas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y cuándo las hiciste?",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "60 piñatas apartadas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Desde octubre. Mientras tú pensabas en Halloween.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "60 piñatas apartadas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Por qué tan temprano?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "60 piñatas apartadas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Porque en diciembre todos quieren piñata. Si empiezas en diciembre, ya llegaste tarde.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Hechas desde octubre",
+    "kind": "check"
+   },
+   "tag": "1/3 · Prepárate antes de la temporada"
+  },
+  {
+   "who": "M",
+   "text": "Eso es cierto.",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "Hechas desde octubre",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y no vendo solo la piñata: piñata, dulces y palo. El cliente resuelve todo en una compra.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Paquete posada completo",
+    "kind": "slots",
+    "n": 3,
+    "note": "Piñata + dulces + palo"
+   },
+   "tag": "2/3 · Vende el paquete completo"
+  },
+  {
+   "who": "M",
+   "text": "¿Y si alguien no viene por la suya?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Paquete posada completo",
+    "kind": "slots",
+    "n": 3,
+    "note": "Piñata + dulces + palo"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Todas se apartaron con anticipo. Nadie se queda con una estrella de siete picos en la sala.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 5.0 · 60 posadas felices",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Aparta con anticipo"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, ¿y esa piñata naranja con piquitos?",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 5.0 · 60 posadas felices",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Edición especial. Es mi cara. No la rompas.",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "APARTADO",
+    "kind": "stamp",
+    "lines": [
+     "Paquete posada completo",
+     "★ 5.0 · 60 posadas felices"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}

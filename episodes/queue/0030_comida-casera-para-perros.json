@@ -1,0 +1,202 @@
+{
+ "title": "comida-casera-para-perros",
+ "room": "comedor",
+ "time": "night",
+ "screen": {
+  "title": "Croquetas Miguel",
+  "subtitle": "Comida casera para perro",
+  "icon": "paw"
+ },
+ "youtube": {
+  "title": "Clapy cocina comida casera… para perros 🍲🐶 #shorts",
+  "description": "Trece perros esperan en la cocina. Clapy está cocinando su cena… y la de sus clientes.\n\n3 consejos para tu negocio:\n1. Asesórate con un experto\n2. Vende por suscripción semanal\n3. Cuenta la historia del producto\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#perros",
+   "#comidaparaperros"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay trece perros mirando la estufa?",
+   "shot": "wide",
+   "pose": "point",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Esperan su cena. Abrí tu cocina para perros.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¿Comida para perros? ¿Casera?",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "angry",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Pollo, arroz y verduras. Mejor que lo que tú cenaste.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "13 perritos suscritos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Yo cené cereal!",
+   "shot": "m_ms",
+   "pose": "cross",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "13 perritos suscritos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Exacto.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "13 perritos suscritos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y cómo sabes que es sano para ellos?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "13 perritos suscritos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Una veterinaria revisó la receta. Cuando vendes algo que se come, primero se asegura.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Receta revisada por veterinaria",
+    "kind": "check"
+   },
+   "tag": "1/3 · Asesórate con un experto"
+  },
+  {
+   "who": "M",
+   "text": "¿Hasta tienes veterinaria?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Receta revisada por veterinaria",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y se vende por semana. Cada lunes llega su comida, ya porcionada por su peso.",
+   "shot": "screen",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "Entrega semanal: lunes",
+    "kind": "slots",
+    "n": 1,
+    "note": "Porciones por peso"
+   },
+   "tag": "2/3 · Vende por suscripción semanal"
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué la gente la prefiere?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Entrega semanal: lunes",
+    "kind": "slots",
+    "n": 1,
+    "note": "Porciones por peso"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Porque cuento la historia: cocinada en casa, con ingredientes que se ven. Eso da confianza.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 5.0 · Plato limpio",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Cuenta la historia del producto"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, ¿y mi cena?",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 5.0 · Plato limpio",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Hay una porción extra. Pesas setenta kilos, ¿verdad?",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "SERVIDO",
+    "kind": "stamp",
+    "lines": [
+     "Entrega semanal: lunes",
+     "★ 5.0 · Plato limpio"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "dog",
+  "count": 13
+ }
+}

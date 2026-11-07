@@ -1,0 +1,196 @@
+{
+ "title": "vivero-de-plantas",
+ "room": "sala",
+ "time": "day",
+ "screen": {
+  "title": "Vivero Miguel",
+  "subtitle": "Plantas desde $45",
+  "icon": "star"
+ },
+ "youtube": {
+  "title": "Clapy convirtió mi sala en un vivero 🪴 #shorts",
+  "description": "Hay plantas en el sillón, en la mesa y en la tele. Clapy abrió un vivero en la sala.\n\n3 consejos para tu negocio:\n1. Explica cómo cuidarlas\n2. Vende a quien recién se muda\n3. Reproduce tu inventario\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#plantas",
+   "#vivero"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay una planta en mi control de la tele?",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Es un suculento. Bienvenido a tu vivero.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡Mi sala no es un vivero!",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "angry",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Ahora sí. Treinta y cinco plantas a la venta.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "35 plantas a la venta",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Yo mato hasta los cactus!",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "35 plantas a la venta",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Por eso yo las cuido. Tú solo cobras.",
+   "shot": "c_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "smug",
+   "status": {
+    "text": "35 plantas a la venta",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y si el cliente también las mata?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "35 plantas a la venta",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Cada planta lleva su guía: cuánta agua y cuánta luz. Si sobrevive, regresa por otra.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Guía de cuidados incluida",
+    "kind": "check"
+   },
+   "tag": "1/3 · Explica cómo cuidarlas"
+  },
+  {
+   "who": "M",
+   "text": "Ah, como un manual.",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Guía de cuidados incluida",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y el mejor cliente es alguien que se acaba de mudar. Depa vacío, ganas de llenarlo. Le vendo el kit de tres.",
+   "shot": "screen",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "Clientes: recién mudados",
+    "kind": "slots",
+    "n": 3,
+    "note": "Kit de 3 plantas para depa"
+   },
+   "tag": "2/3 · Vende a quien recién se muda"
+  },
+  {
+   "who": "M",
+   "text": "¿Y de dónde salen tantas plantas?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Clientes: recién mudados",
+    "kind": "slots",
+    "n": 3,
+    "note": "Kit de 3 plantas para depa"
+   }
+  },
+  {
+   "who": "C",
+   "text": "De las mismas. Corto un pedacito, lo planto, y nace otra. Inventario gratis.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · Ninguna se murió",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Reproduce tu inventario"
+  },
+  {
+   "who": "M",
+   "text": "Clapy... ¿por qué tengo una maceta en la cabeza?",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · Ninguna se murió",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Exhibidor móvil. Sonríe, hay clientes.",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "VENDIDAS",
+    "kind": "stamp",
+    "lines": [
+     "Clientes: recién mudados",
+     "★ 4.9 · Ninguna se murió"
+    ]
+   },
+   "tail": 2.6
+  }
+ ]
+}

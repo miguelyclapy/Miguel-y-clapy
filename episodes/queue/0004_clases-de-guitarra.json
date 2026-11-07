@@ -1,0 +1,196 @@
+{
+ "title": "clases-de-guitarra",
+ "room": "cuarto",
+ "time": "day",
+ "screen": {
+  "title": "Clases con Miguel",
+  "subtitle": "Guitarra en línea · $150",
+  "icon": "star"
+ },
+ "youtube": {
+  "title": "Clapy me puso a dar clases de guitarra 🎸 #shorts",
+  "description": "Miguel tiene una guitarra en su cuarto. Clapy decidió que ya es maestro.\n\n3 consejos para tu negocio:\n1. Enséñale a un nicho\n2. Usa horarios fijos\n3. Vende paquetes, no clases sueltas\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#guitarra",
+   "#clasesenlinea"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy... ¿por qué hay doce personas esperando en mi videollamada?",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Son tus alumnos. Hoy empiezas a dar clases de guitarra.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡Yo solo me sé tres acordes!",
+   "shot": "m_cu",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Perfecto. Tus alumnos se saben cero.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "12 alumnos inscritos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Eso no me hace maestro!",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "12 alumnos inscritos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Te hace tres acordes mejor que ellos.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "12 alumnos inscritos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué todos son señores?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "12 alumnos inscritos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Porque elegí un nicho: adultos que siempre quisieron tocar y nunca empezaron.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Nicho: adultos que nunca tocaron",
+    "kind": "check"
+   },
+   "tag": "1/3 · Enséñale a un nicho"
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué ellos?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Nicho: adultos que nunca tocaron",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Porque tienen tiempo, paciencia y pagan puntual. Y las clases son martes y jueves, fijo.",
+   "shot": "screen",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "Martes y jueves · 6 pm",
+    "kind": "slots",
+    "n": 2,
+    "note": "Cupo lleno hasta diciembre"
+   },
+   "tag": "2/3 · Usa horarios fijos"
+  },
+  {
+   "who": "M",
+   "text": "¿Y si alguien quiere solo una clase?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Martes y jueves · 6 pm",
+    "kind": "slots",
+    "n": 2,
+    "note": "Cupo lleno hasta diciembre"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Le vendo el paquete de ocho. Así de verdad aprende y tú cobras el mes completo.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "★ 5.0 · 12 alumnos",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Vende paquetes, no clases sueltas"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, en serio, ¿qué les enseño hoy?",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 5.0 · 12 alumnos",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "El primer acorde. Ustedes van a aprender juntos.",
+   "shot": "wide",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "INSCRITOS",
+    "kind": "stamp",
+    "lines": [
+     "Martes y jueves · 6 pm",
+     "★ 5.0 · 12 alumnos"
+    ]
+   },
+   "tail": 2.6
+  }
+ ]
+}

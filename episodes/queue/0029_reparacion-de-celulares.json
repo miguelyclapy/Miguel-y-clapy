@@ -1,0 +1,202 @@
+{
+ "title": "reparacion-de-celulares",
+ "room": "cuarto",
+ "time": "day",
+ "screen": {
+  "title": "Reparaciones Miguel",
+  "subtitle": "Cambio de pantalla · $450",
+  "icon": "box"
+ },
+ "youtube": {
+  "title": "Clapy abrió un taller de celulares en mi cuarto 📱 #shorts",
+  "description": "El escritorio de Miguel está lleno de celulares rotos. Clapy abrió un taller.\n\n3 consejos para tu negocio:\n1. Especialízate en una reparación\n2. Da un diagnóstico gratis\n3. Ofrece garantía\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#celulares",
+   "#reparacion"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay catorce celulares rotos en mi escritorio?",
+   "shot": "wide",
+   "pose": "point",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Son tus clientes. Abrí tu taller de reparaciones.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡Yo rompo celulares, no los arreglo!",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Por eso sabes cómo se rompen. Es experiencia.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "14 celulares en taller",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Eso no cuenta!",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "14 celulares en taller",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Cuenta. Lo puse en tu currículum.",
+   "shot": "c_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "smug",
+   "status": {
+    "text": "14 celulares en taller",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y cómo sé qué tiene cada uno?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "14 celulares en taller",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Diagnóstico gratis. El cliente entra sin miedo y casi siempre se queda.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Diagnóstico gratis",
+    "kind": "check"
+   },
+   "tag": "1/3 · Especialízate en una reparación"
+  },
+  {
+   "who": "M",
+   "text": "¿Y arreglamos todo?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Diagnóstico gratis",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "No. Solo pantallas y baterías. Es lo que más se rompe y lo que aprendes más rápido.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Solo pantallas y baterías",
+    "kind": "slots",
+    "n": 2,
+    "note": "Lo que más se rompe"
+   },
+   "tag": "2/3 · Da un diagnóstico gratis"
+  },
+  {
+   "who": "M",
+   "text": "¿Y si se vuelve a romper?",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Solo pantallas y baterías",
+    "kind": "slots",
+    "n": 2,
+    "note": "Lo que más se rompe"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Garantía de treinta días. Nadie confía en un taller que no responde por su trabajo.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · Garantía 30 días",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Ofrece garantía"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, ¿y este celular de quién es?",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · Garantía 30 días",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Tuyo. Lo dejaste caer ayer. Ya te toca turno.",
+   "shot": "wide",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "REPARADO",
+    "kind": "stamp",
+    "lines": [
+     "Solo pantallas y baterías",
+     "★ 4.9 · Garantía 30 días"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}

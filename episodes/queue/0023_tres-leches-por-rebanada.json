@@ -1,0 +1,202 @@
+{
+ "title": "tres-leches-por-rebanada",
+ "room": "sala",
+ "time": "night",
+ "screen": {
+  "title": "Rebanadas Miguel",
+  "subtitle": "Tres leches · $35",
+  "icon": "cake"
+ },
+ "youtube": {
+  "title": "Clapy vende pastel por rebanada 🍰 #shorts",
+  "description": "Miguel ve pasteles por toda la sala. Clapy no los vende enteros: los vende por rebanada.\n\n3 consejos para tu negocio:\n1. Divide para ganar más\n2. Precio fácil de pagar\n3. Vende en la hora del antojo\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#pastel",
+   "#tresleches"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay diez pasteles en la sala?",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Ciento veinte rebanadas. Ya están vendidas.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¿Rebanadas? ¿Por qué no pasteles enteros?",
+   "shot": "m_cu",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Porque un pastel entero casi nadie lo compra. Una rebanada, todo el mundo.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "120 rebanadas vendidas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "Pero es el mismo pastel.",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "120 rebanadas vendidas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Sí. Pero partido en doce, gana casi el doble.",
+   "shot": "c_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "smug",
+   "status": {
+    "text": "120 rebanadas vendidas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿El doble? ¿Cómo?",
+   "shot": "m_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "120 rebanadas vendidas",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Un pastel entero lo vendo en trescientos. Doce rebanadas a treinta y cinco son cuatrocientos veinte.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "12 rebanadas por pastel",
+    "kind": "check"
+   },
+   "tag": "1/3 · Divide para ganar más"
+  },
+  {
+   "who": "M",
+   "text": "Eso es magia.",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "12 rebanadas por pastel",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Es matemática. Y treinta y cinco pesos se pagan sin pensarlo. Precio fácil, venta fácil.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Hora del antojo: 9 pm",
+    "kind": "slots",
+    "n": 3,
+    "note": "Pedidos por WhatsApp"
+   },
+   "tag": "2/3 · Precio fácil de pagar"
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué de noche?",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "Hora del antojo: 9 pm",
+    "kind": "slots",
+    "n": 3,
+    "note": "Pedidos por WhatsApp"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Porque a las nueve llega el antojo. Mandas mensaje, llega la rebanada.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · Ya es costumbre",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Vende en la hora del antojo"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, ¿me guardaste una?",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · Ya es costumbre",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Te guardé el plato. Lo puedes lamer.",
+   "shot": "wide",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "AGOTADO",
+    "kind": "stamp",
+    "lines": [
+     "Hora del antojo: 9 pm",
+     "★ 4.9 · Ya es costumbre"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "cake",
+  "count": 17
+ }
+}

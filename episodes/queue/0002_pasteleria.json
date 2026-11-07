@@ -1,0 +1,202 @@
+{
+ "title": "pasteleria",
+ "room": "comedor",
+ "time": "day",
+ "screen": {
+  "title": "Pastelería Miguel",
+  "subtitle": "Pasteles desde $250",
+  "icon": "cake"
+ },
+ "youtube": {
+  "title": "Clapy me abrió una pastelería sin avisarme 🎂 #shorts",
+  "description": "Miguel entra a la cocina y está llena de pasteles. Clapy ya tomó los pedidos.\n\n3 consejos para tu negocio:\n1. Calcula tu costo real\n2. Vende un producto estrella\n3. Fotos con luz natural\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#pasteleria",
+   "#reposteria"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy... ¿por qué la cocina está llena de pasteles?",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Porque abrí tu pastelería. Ya hay veinticinco pedidos.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡Yo no sé hornear!",
+   "shot": "m_cu",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Tranquilo, la receta viene en el video. Y el horno ya está prendido.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "25 pedidos nuevos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Clapy, son las siete de la mañana!",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "25 pedidos nuevos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Los pasteles no duermen, Miguel.",
+   "shot": "c_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "smug",
+   "status": {
+    "text": "25 pedidos nuevos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y a cuánto los vendemos?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "25 pedidos nuevos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Primero sumé harina, huevo, gas y tu tiempo. Así sabemos cuánto ganas de verdad.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Ganancia real: $110 por pastel",
+    "kind": "check"
+   },
+   "tag": "1/3 · Calcula tu costo real"
+  },
+  {
+   "who": "M",
+   "text": "¿Mi tiempo cuenta?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "Ganancia real: $110 por pastel",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Mucho. Por eso solo vendemos uno: el tres leches. Si hacemos de todo, no hacemos nada bien.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Menú: 1 pastel estrella",
+    "kind": "slots",
+    "n": 1,
+    "note": "Tres leches · el más pedido"
+   },
+   "tag": "2/3 · Vende un producto estrella"
+  },
+  {
+   "who": "M",
+   "text": "¿Y cómo nos encuentra la gente?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Menú: 1 pastel estrella",
+    "kind": "slots",
+    "n": 1,
+    "note": "Tres leches · el más pedido"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Con fotos junto a la ventana. Luz natural. Se ven deliciosos.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.8 · 31 fotos compartidas",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Fotos con luz natural"
+  },
+  {
+   "who": "M",
+   "text": "¿Y quién se va a comer los que sobren?",
+   "shot": "m_ms",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.8 · 31 fotos compartidas",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Nadie. Ya se vendieron. Incluido el tuyo.",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "AGOTADO",
+    "kind": "stamp",
+    "lines": [
+     "Menú: 1 pastel estrella",
+     "★ 4.8 · 31 fotos compartidas"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "cake",
+  "count": 17
+ }
+}

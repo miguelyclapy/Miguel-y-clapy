@@ -1,0 +1,196 @@
+{
+ "title": "edicion-de-videos",
+ "room": "cuarto",
+ "time": "night",
+ "screen": {
+  "title": "Edición Miguel",
+  "subtitle": "Videos para negocios",
+  "icon": "star"
+ },
+ "youtube": {
+  "title": "Clapy me consiguió clientes de edición de video 🎬 #shorts",
+  "description": "Miguel solo quería ver videos. Ahora tiene que editarlos: Clapy le consiguió clientes.\n\n3 consejos para tu negocio:\n1. Arma un portafolio\n2. Precios claros\n3. Limita las correcciones\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#edicion",
+   "#freelance"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué tengo seis correos de clientes?",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Porque ahora editas videos. Te conseguí seis negocios.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡Yo solo edito memes!",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Y les encantaron. Los puse en tu portafolio.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "6 clientes nuevos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡¿Mis memes son mi portafolio?!",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "6 clientes nuevos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Los mejores cinco. El del gato no pasó el filtro.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "6 clientes nuevos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y cuánto les cobro?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "6 clientes nuevos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Ya está en tu página: precio por video, claro y sin sorpresas. Así nadie regatea.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Portafolio: 5 videos",
+    "kind": "check"
+   },
+   "tag": "1/3 · Arma un portafolio"
+  },
+  {
+   "who": "M",
+   "text": "¿Y si piden cambios?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "Portafolio: 5 videos",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Dos correcciones incluidas. La tercera se cobra. Si no, editas el mismo video toda tu vida.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Correcciones incluidas: 2",
+    "kind": "slots",
+    "n": 2,
+    "note": "La tercera se cobra"
+   },
+   "tag": "2/3 · Precios claros"
+  },
+  {
+   "who": "M",
+   "text": "Eso suena a experiencia.",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "Correcciones incluidas: 2",
+    "kind": "slots",
+    "n": 2,
+    "note": "La tercera se cobra"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y entregas a tiempo. Por eso ya tienes reseñas.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · Entregas a tiempo",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Limita las correcciones"
+  },
+  {
+   "who": "M",
+   "text": "¿Y cuándo tengo que entregar?",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · Entregas a tiempo",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Hace diez minutos. Pero tranquilo, ya empecé yo.",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "ENTREGADO",
+    "kind": "stamp",
+    "lines": [
+     "Correcciones incluidas: 2",
+     "★ 4.9 · Entregas a tiempo"
+    ]
+   },
+   "tail": 2.6
+  }
+ ]
+}

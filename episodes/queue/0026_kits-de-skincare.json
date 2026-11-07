@@ -1,0 +1,202 @@
+{
+ "title": "kits-de-skincare",
+ "room": "bano",
+ "time": "day",
+ "screen": {
+  "title": "Kits Miguel",
+  "subtitle": "Cuidado de piel · $350",
+  "icon": "star"
+ },
+ "youtube": {
+  "title": "Clapy vende kits de cuidado de la piel desde mi baño 🧴 #shorts",
+  "description": "Miguel entra al baño y hay más cremas que jabón. Clapy armó kits de cuidado de piel.\n\n3 consejos para tu negocio:\n1. Explica el paso a paso\n2. Ofrece una muestra\n3. Ten productos de recompra\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#skincare",
+   "#cuidadodelapiel"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué mi baño parece tienda de cremas?",
+   "shot": "wide",
+   "pose": "point",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Porque es una tienda de cremas. Veintiocho kits pedidos.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡Yo solo uso jabón!",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "angry",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Por eso tu piel es nuestra peor publicidad.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "28 kits pedidos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Oye!",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "28 kits pedidos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Era broma. Un poquito.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "28 kits pedidos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y quién sabe usar tantas cremas?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "28 kits pedidos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Nadie. Por eso cada kit trae una rutina de tres pasos. Si lo entienden, lo usan.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Rutina de 3 pasos incluida",
+    "kind": "check"
+   },
+   "tag": "1/3 · Explica el paso a paso"
+  },
+  {
+   "who": "M",
+   "text": "¿Tres pasos? ¿Nada más?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Rutina de 3 pasos incluida",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y a quien duda, le mando muestra gratis. Uno de cada tres termina comprando.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Muestras enviadas",
+    "kind": "slots",
+    "n": 5,
+    "note": "1 de cada 3 compra"
+   },
+   "tag": "2/3 · Ofrece una muestra"
+  },
+  {
+   "who": "M",
+   "text": "¿Y luego qué?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Muestras enviadas",
+    "kind": "slots",
+    "n": 5,
+    "note": "1 de cada 3 compra"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Las cremas se acaban. Y cuando se acaban, vuelven. Eso es lo que hace crecer el negocio.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.8 · Volvieron por más",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Ten productos de recompra"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, ¿me pongo una?",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.8 · Volvieron por más",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Paso uno: lávate la cara. Paso dos: paga.",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "ENVIADO",
+    "kind": "stamp",
+    "lines": [
+     "Muestras enviadas",
+     "★ 4.8 · Volvieron por más"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}

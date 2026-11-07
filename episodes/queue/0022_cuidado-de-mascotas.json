@@ -1,0 +1,202 @@
+{
+ "title": "cuidado-de-mascotas",
+ "room": "sala",
+ "time": "night",
+ "screen": {
+  "title": "Hotel Peludo Miguel",
+  "subtitle": "Noche · $250",
+  "icon": "paw"
+ },
+ "youtube": {
+  "title": "Clapy convirtió mi sala en hotel para perros 🏨🐕 #shorts",
+  "description": "Es de noche y quince perros duermen en la sala. Sus dueños se fueron de vacaciones.\n\n3 consejos para tu negocio:\n1. Reglas claras desde el inicio\n2. Manda actualizaciones\n3. Atiende a quien viaja\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#perros",
+   "#mascotas"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay quince perros dormidos en mi sala?",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Son huéspedes. Abrí tu hotel para perros.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡¿Un hotel?!",
+   "shot": "m_cu",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Sus dueños están de vacaciones. Ellos también merecen descansar.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "15 huéspedes peludos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡Y yo dónde duermo!",
+   "shot": "m_ms",
+   "pose": "point",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "15 huéspedes peludos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "En el pasillo. Tú no pagaste habitación.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "15 huéspedes peludos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y si uno se pone agresivo?",
+   "shot": "m_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "15 huéspedes peludos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Antes de llegar, el dueño firma reglas: vacunas, comida, horarios. Todo claro desde el principio.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Reglamento firmado",
+    "kind": "check"
+   },
+   "tag": "1/3 · Reglas claras desde el inicio"
+  },
+  {
+   "who": "M",
+   "text": "¿Hasta los perros tienen reglamento?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Reglamento firmado",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y cada dueño recibe dos fotos al día. Dormido, comiendo, feliz. Viajan tranquilos.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Fotos al dueño: 2 al día",
+    "kind": "slots",
+    "n": 2,
+    "note": "Mañana y noche"
+   },
+   "tag": "2/3 · Manda actualizaciones"
+  },
+  {
+   "who": "M",
+   "text": "¿Y de dónde salen tantos clientes?",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "Fotos al dueño: 2 al día",
+    "kind": "slots",
+    "n": 2,
+    "note": "Mañana y noche"
+   }
+  },
+  {
+   "who": "C",
+   "text": "De la gente que viaja. En vacaciones nadie sabe qué hacer con su perro. Nosotros sí.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 5.0 · Dueños tranquilos",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Atiende a quien viaja"
+  },
+  {
+   "who": "M",
+   "text": "Clapy... uno se subió a mi cama.",
+   "shot": "m_ms",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "★ 5.0 · Dueños tranquilos",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Suite presidencial. Esa cuesta el doble.",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "HOSPEDADOS",
+    "kind": "stamp",
+    "lines": [
+     "Fotos al dueño: 2 al día",
+     "★ 5.0 · Dueños tranquilos"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "dog",
+  "count": 15
+ }
+}

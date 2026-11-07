@@ -1,0 +1,202 @@
+{
+ "title": "renta-de-disfraces",
+ "room": "sala",
+ "time": "day",
+ "screen": {
+  "title": "Disfraces Miguel",
+  "subtitle": "Renta · $150 por día",
+  "icon": "star"
+ },
+ "youtube": {
+  "title": "Clapy renta disfraces desde mi sala 🦸 #shorts",
+  "description": "Miguel encuentra su sala llena de disfraces. Clapy no los vende: los renta.\n\n3 consejos para tu negocio:\n1. Renta lo que se usa una vez\n2. Pide depósito\n3. Limpia y revisa al regresar\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#disfraces",
+   "#renta"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué hay un dinosaurio en mi sillón?",
+   "shot": "wide",
+   "pose": "point",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Es un disfraz. Abrí tu renta de disfraces.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡¿Renta?!",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "angry",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Nadie quiere comprar un disfraz para usarlo una vez. Rentarlo, sí.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "25 disfraces disponibles",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué tienes una capa de superhéroe?",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "25 disfraces disponibles",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Soy el modelo. Me queda increíble.",
+   "shot": "c_cu",
+   "pose": "point",
+   "face": "angry",
+   "cface": "smug",
+   "status": {
+    "text": "25 disfraces disponibles",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y si no lo regresan?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "25 disfraces disponibles",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Dejan depósito de doscientos. Si regresa bien, se lo devolvemos. Si no, ya está pagado.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Depósito: $200",
+    "kind": "check"
+   },
+   "tag": "1/3 · Renta lo que se usa una vez"
+  },
+  {
+   "who": "M",
+   "text": "Eso es muy inteligente.",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Depósito: $200",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y cuando regresa, lo lavo y reviso costuras. Que el siguiente lo reciba como nuevo.",
+   "shot": "screen",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "Revisión al regresar",
+    "kind": "slots",
+    "n": 4,
+    "note": "Lavado y costuras"
+   },
+   "tag": "2/3 · Pide depósito"
+  },
+  {
+   "who": "M",
+   "text": "¿Y cuántas veces se renta uno?",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "Revisión al regresar",
+    "kind": "slots",
+    "n": 4,
+    "note": "Lavado y costuras"
+   }
+  },
+  {
+   "who": "C",
+   "text": "El dinosaurio, quince. Ya se pagó tres veces.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "★ 4.9 · Como nuevos",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Limpia y revisa al regresar"
+  },
+  {
+   "who": "M",
+   "text": "Clapy, ¿por qué traigo puesto el dinosaurio?",
+   "shot": "m_ms",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": {
+    "text": "★ 4.9 · Como nuevos",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Publicidad. Sal a caminar por el barrio.",
+   "shot": "wide",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "RENTADO",
+    "kind": "stamp",
+    "lines": [
+     "Revisión al regresar",
+     "★ 4.9 · Como nuevos"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}

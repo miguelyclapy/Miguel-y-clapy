@@ -1,0 +1,202 @@
+{
+ "title": "despensa-a-domicilio",
+ "room": "comedor",
+ "time": "day",
+ "screen": {
+  "title": "Mandados Miguel",
+  "subtitle": "Despensa a domicilio",
+  "icon": "box"
+ },
+ "youtube": {
+  "title": "Clapy me puso a hacer mandados para los vecinos 🛒 #shorts",
+  "description": "El comedor está lleno de bolsas del súper. Ninguna es de Miguel.\n\n3 consejos para tu negocio:\n1. Atiende a quien no puede salir\n2. Cobra una tarifa fija\n3. Confirma cada producto\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#mandados",
+   "#servicios"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy, ¿de quién son todas estas bolsas?",
+   "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "De once vecinos. Les hacemos el súper.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡¿Yo hago el súper de once personas?!",
+   "shot": "m_cu",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Y sin pelearte por la última fila de la caja. Ya tienes experiencia.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "11 despensas por entregar",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y quién te pidió esto?",
+   "shot": "m_ms",
+   "pose": "cross",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "11 despensas por entregar",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Los abuelitos del barrio. No pueden cargar, tú sí.",
+   "shot": "c_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "smug",
+   "status": {
+    "text": "11 despensas por entregar",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y cuánto cobramos?",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "normal",
+   "status": {
+    "text": "11 despensas por entregar",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Sesenta pesos fijos por mandado. Sin importar si compran mucho o poco. Claro y sencillo.",
+   "shot": "c_ms",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "normal",
+   "status": {
+    "text": "Clientes: abuelitos del barrio",
+    "kind": "check"
+   },
+   "tag": "1/3 · Atiende a quien no puede salir"
+  },
+  {
+   "who": "M",
+   "text": "Suena justo.",
+   "shot": "m_cu",
+   "pose": "think",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Clientes: abuelitos del barrio",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y antes de pagar, mando foto de cada producto. Si no hay, el cliente decide qué cambiar.",
+   "shot": "screen",
+   "pose": "think",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "Tarifa fija: $60",
+    "kind": "slots",
+    "n": 4,
+    "note": "Sin importar el monto"
+   },
+   "tag": "2/3 · Cobra una tarifa fija"
+  },
+  {
+   "who": "M",
+   "text": "¿Por eso tienes cinco estrellas?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Tarifa fija: $60",
+    "kind": "slots",
+    "n": 4,
+    "note": "Sin importar el monto"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Por eso, y porque doña Lupe dice que eres muy guapo.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "neutral",
+   "cface": "happy",
+   "status": {
+    "text": "★ 5.0 · Nunca falta nada",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Confirma cada producto"
+  },
+  {
+   "who": "M",
+   "text": "¿En serio?",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 5.0 · Nunca falta nada",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "No. Dijo que eras puntual. Pero te veías feliz.",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "ENTREGADO",
+    "kind": "stamp",
+    "lines": [
+     "Tarifa fija: $60",
+     "★ 5.0 · Nunca falta nada"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}

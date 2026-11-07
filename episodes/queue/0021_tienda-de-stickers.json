@@ -1,0 +1,202 @@
+{
+ "title": "tienda-de-stickers",
+ "room": "cuarto",
+ "time": "day",
+ "screen": {
+  "title": "Stickers Miguel",
+  "subtitle": "Paquete de 10 · $60",
+  "icon": "star"
+ },
+ "youtube": {
+  "title": "Clapy vende stickers con mi cara 😅 #shorts",
+  "description": "Miguel descubre su propia cara en un sticker. Clapy ya vendió quinientos.\n\n3 consejos para tu negocio:\n1. Haz diseños originales\n2. Vende en paquetes\n3. Regala uno en cada pedido\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "hashtags": [
+   "#shorts",
+   "#emprendimiento",
+   "#negocios",
+   "#humor",
+   "#MiguelyClapy",
+   "#stickers",
+   "#diseño"
+  ]
+ },
+ "lines": [
+  {
+   "who": "M",
+   "text": "Clapy... ¿por qué mi cara está en un sticker?",
+   "shot": "wide",
+   "pose": "shrug",
+   "face": "shock",
+   "cface": "normal",
+   "status": null,
+   "excite": true
+  },
+  {
+   "who": "C",
+   "text": "Porque es el más vendido. Quinientos ya.",
+   "shot": "c_cu",
+   "pose": "think",
+   "face": "sus",
+   "cface": "happy",
+   "status": null
+  },
+  {
+   "who": "M",
+   "text": "¡¿Quinientas caras mías?!",
+   "shot": "m_cu",
+   "pose": "hands_head",
+   "face": "angry",
+   "cface": "normal",
+   "status": null
+  },
+  {
+   "who": "C",
+   "text": "Y de todas tus caras. Enojado, sorprendido y dormido.",
+   "shot": "screen",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "happy",
+   "status": {
+    "text": "500 stickers vendidos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¡¿Dormido?!",
+   "shot": "m_ms",
+   "pose": "cross",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "500 stickers vendidos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "El dormido se vende más. Te ves en paz.",
+   "shot": "c_cu",
+   "pose": "cross",
+   "face": "sus",
+   "cface": "smug",
+   "status": {
+    "text": "500 stickers vendidos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "M",
+   "text": "¿Y no podías usar dibujos de internet?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "500 stickers vendidos",
+    "kind": "progress"
+   }
+  },
+  {
+   "who": "C",
+   "text": "No. Los diseños son originales. Si copias, te pueden quitar todo.",
+   "shot": "c_ms",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Diseños 100% originales",
+    "kind": "check"
+   },
+   "tag": "1/3 · Haz diseños originales"
+  },
+  {
+   "who": "M",
+   "text": "Al menos son míos.",
+   "shot": "m_cu",
+   "pose": "self",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Diseños 100% originales",
+    "kind": "check"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Y se venden en paquetes de diez. Nadie compra un solo sticker.",
+   "shot": "screen",
+   "pose": "idle",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "Paquete de 10",
+    "kind": "slots",
+    "n": 5,
+    "note": "El más vendido"
+   },
+   "tag": "2/3 · Vende en paquetes"
+  },
+  {
+   "who": "M",
+   "text": "¿Y por qué todos dicen gracias?",
+   "shot": "m_cu",
+   "pose": "shrug",
+   "face": "confused",
+   "cface": "normal",
+   "status": {
+    "text": "Paquete de 10",
+    "kind": "slots",
+    "n": 5,
+    "note": "El más vendido"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Porque en cada pedido regalo uno sorpresa. Algo pequeño que nadie esperaba. Por eso las cinco estrellas.",
+   "shot": "c_ms",
+   "pose": "self",
+   "face": "confused",
+   "cface": "happy",
+   "status": {
+    "text": "★ 5.0 · Regalo sorpresa",
+    "kind": "stars"
+   },
+   "tag": "3/3 · Regala uno en cada pedido"
+  },
+  {
+   "who": "M",
+   "text": "¿Cuál es el sticker de regalo?",
+   "shot": "m_ms",
+   "pose": "arms_up",
+   "face": "angry",
+   "cface": "normal",
+   "status": {
+    "text": "★ 5.0 · Regalo sorpresa",
+    "kind": "stars"
+   }
+  },
+  {
+   "who": "C",
+   "text": "Tú. Dormido. Edición limitada.",
+   "shot": "wide",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "VENDIDO",
+    "kind": "stamp",
+    "lines": [
+     "Paquete de 10",
+     "★ 5.0 · Regalo sorpresa"
+    ]
+   },
+   "excite": true,
+   "tail": 2.6
+  }
+ ],
+ "crowd": {
+  "type": "box",
+  "count": 17
+ }
+}
