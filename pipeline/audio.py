@@ -63,7 +63,7 @@ def mix(data, voice_dir, out_wav, seed=11):
         t += seg; ci += 1
     track = music_file(seed)
     if track is not None:   # pista real (lo-fi relajante); la sintetizada queda solo de respaldo
-        reps = int(np.ceil(N / len(track))) + 1; music = np.tile(track, reps)[:N] * 0.32
+        reps = int(np.ceil(N / len(track))) + 1; music = np.tile(track, reps)[:N] * 0.40
         fi = int(1.0 * SR); music[:fi] *= np.linspace(0, 1, fi)
     k = int(0.15 * SR); dk = np.convolve(np.abs(voice), np.ones(k) / k, mode="same"); dk = 1 - 0.45 * np.minimum(1, dk * 8)
     m = voice + music * dk * 0.75 + sfx * 0.8; fade = int(0.6 * SR); m[-fade:] *= np.linspace(1, 0, fade)
