@@ -3,3 +3,4 @@
 0003_ropa-segunda-mano.json
 0004_clases-de-guitarra.json
 0005_jabones-artesanales.json
+0006_estetica-canina.json
