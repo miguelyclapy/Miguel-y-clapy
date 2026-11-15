@@ -46,7 +46,9 @@ const SHOTS = {
   m_cu: { t: [mh.x, mh.y + 0.55, mh.z], h: 5.0, az: room.miguel.rotY * 0.55 },
   m_ms: { t: [mh.x + 0.3, mh.y - 0.9, mh.z], h: 6.6, az: room.miguel.rotY * 0.3 },
   c_cu: { t: [cp.x - 0.2, cp.y - 0.2, cp.z], h: 4.0, az: room.clapy.rotY ?? -0.2 },
-  c_ms: { t: [(cp.x + sc.x) / 2, (cp.y + sc.y) / 2 - 0.4, (cp.z + sc.z) / 2], h: 7.6, az: -0.1 },
+  // c_ms: encuadre que siempre incluye a Clapy y la pantalla completa (sin cortar el letrero)
+  c_ms: (() => { const sw = (room.screen.w || 2) / 2 + 0.25, l = Math.min(cp.x - 1.0, sc.x - sw), r = Math.max(cp.x + 1.0, sc.x + sw);
+    return { t: [(l + r) / 2, (cp.y + sc.y) / 2 - 0.4, (cp.z + sc.z) / 2], h: Math.max(7.6, (r - l) * 16 / 9 * 1.05), az: -0.1 }; })(),
   screen: { t: [sc.x, sc.y + (room.screen.hshot || room.screen.h) * 0.16, sc.z], h: (room.screen.hshot || room.screen.h) * 1.05, az: room.screen.az || 0 },
 };
 const ALIAS = { beto_cu: 'm_cu', beto_ms: 'm_ms', chispa_cu: 'c_cu', chispa_ms: 'c_ms', panel: 'screen' };
