@@ -72,7 +72,7 @@ function icon(g, kind, x, y, col, bg) {
 }
 function drawScreen(L, t) {
   const g = scrCanvas.getContext('2d'); const Wc = 1160, Hc = 666; g.clearRect(0, 0, Wc, Hc);
-  const st = L.status; const a = st && firstStatus ? ease((t - firstStatus.start - 0.2) / 0.4) : 0;
+  const st = L.status; const a = EP.screen ? 1 : (st && firstStatus ? ease((t - firstStatus.start - 0.2) / 0.4) : 0); // con negocio: el letrero se ve desde el inicio (el gancho dice 'mi tele dice X')
   if (!holo) {
     const gr = g.createLinearGradient(0, 0, Wc, Hc); gr.addColorStop(0, '#1a1440'); gr.addColorStop(1, '#3a1d4a'); g.fillStyle = gr; g.fillRect(0, 0, Wc, Hc);
     g.fillStyle = 'rgba(0,0,0,0.45)'; g.fillRect(0, Hc - 44, Wc, 44); for (let i = 0; i < 6; i++) { g.fillStyle = ['#ff7a59', '#4db8ff', '#7ee787', '#ffd36b', '#d2a8ff', '#fff'][i]; rr(g, 440 + i * 46, Hc - 36, 30, 28, 6); g.fill(); }
@@ -86,6 +86,7 @@ function drawScreen(L, t) {
   icon(g, SCR.icon, 80, 82, cyan, 'rgb(15,51,66)');
   g.font = 'bold 46px Inter'; g.fillStyle = '#fff'; g.fillText(SCR.title, 150, 72, 410); g.font = '32px Inter'; g.fillStyle = cyan; g.fillText(SCR.subtitle || '', 150, 122, 410);
   g.fillStyle = 'rgba(255,255,255,0.2)'; g.fillRect(30, 170, 520, 3);
+  if (!st) { g.restore(); scrTex.needsUpdate = true; return; }
   const prev = L.i > 0 ? JSON.stringify(TL[L.i - 1].status) : null; const k = (L.i > 0 && prev !== JSON.stringify(st)) ? ease((t - L.start) / 0.3) : 1;
   const S = typeof st === 'string' ? { text: st } : st;
   if (S.kind === 'stamp') {
