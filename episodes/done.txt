@@ -15,3 +15,4 @@
 0015_fotos-de-producto.json
 0016_cajas-sorpresa.json
 0017_cupcakes-por-mayoreo.json
+0018_torneo-de-videojuegos.json
