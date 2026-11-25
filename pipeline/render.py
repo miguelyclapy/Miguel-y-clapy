@@ -86,6 +86,31 @@ def overlay(bgra, t, data):
         c.set_source_rgba(0, 0, 0, 0.7 * k); c.set_line_width(13); c.set_line_join(cairo.LINE_JOIN_ROUND); c.stroke_preserve()
         col = (1, 1, 1) if L["who"] == "M" else (1, 0.86, 0.7)
         c.set_source_rgba(*col, k); c.fill()
+    tl = data["tl"]
+    if data.get("hook") and len(tl) > 1 and t < tl[1]["end"]:   # gancho en texto grande desde el primer cuadro
+        a = 1 - ease((t - (tl[1]["end"] - 0.3)) / 0.3); s0 = 1 + 0.06 * (1 - ease(t / 0.25))
+        c.select_font_face(FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
+        fs = 96
+        while True:   # maximo 2 renglones para no tapar los subtitulos
+            c.set_font_size(fs); rows = wrap(c, data["hook"], 980)
+            if len(rows) <= 2 or fs <= 60: break
+            fs -= 4
+        c.save(); c.translate(W / 2, 0); c.scale(s0, s0)
+        for i, ln in enumerate(rows):
+            tw = c.text_extents(ln).x_advance; c.move_to(-tw / 2, 235 + i * fs * 1.1); c.text_path(ln)
+            c.set_source_rgba(0, 0, 0, 0.85 * a); c.set_line_width(18); c.set_line_join(cairo.LINE_JOIN_ROUND); c.stroke_preserve()
+            c.set_source_rgba(1, 0.86, 0.2, a); c.fill()
+        c.restore()
+    if data.get("share") and L is tl[-1] and len(tl) > 2:   # ultimo renglon: invitar a compartir
+        k = ease((t - L["start"] - 0.3) / 0.3)
+        c.select_font_face(FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); c.set_font_size(44)
+        rows = wrap(c, data["share"], 820); ph = 40 + 58 * len(rows); pw = 900
+        c.save(); c.translate(W / 2, 300); sc = 0.7 + 0.3 * k; c.scale(sc, sc)
+        c.set_source_rgba(0.49, 0.36, 1.0, 0.95 * k); rr(c, -pw / 2, -ph / 2, pw, ph, 30); c.fill()
+        c.set_source_rgba(1, 1, 1, k)
+        for i, ln in enumerate(rows):
+            tw = c.text_extents(ln).x_advance; c.move_to(-tw / 2, -ph / 2 + 64 + i * 58); c.show_text(ln)
+        c.restore()
     d = t - L["start"]
     if d < 0.06: c.set_source_rgba(0, 0, 0, 0.35 * (1 - d / 0.06)); c.paint()
     if t > data["total"] - 0.5: c.set_source_rgba(0, 0, 0, (t - (data["total"] - 0.5)) / 0.5); c.paint()

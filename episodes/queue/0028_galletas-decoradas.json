@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy me puso a decorar galletas 🍪 #shorts",
-  "description": "Es de noche y la cocina está llena de cajas de galletas decoradas. Hay una boda mañana.\n\n3 consejos para tu negocio:\n1. Personaliza para eventos\n2. Cobra el diseño\n3. Fecha límite para pedidos\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "Es de noche y la cocina está llena de cajas de galletas decoradas. Hay una boda mañana.\n\n3 consejos para tu negocio:\n1. Personaliza para eventos\n2. Cobra el diseño\n3. Fecha límite para pedidos\n\n¿Qué negocio me abre Clapy mañana? Déjalo en los comentarios 👇\nMándaselo a ese amigo que siempre dice que va a emprender 😂\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿qué hay en todas estas cajas?",
+   "text": "Clapy, ¡¿qué hay en estas cajas?!",
    "shot": "wide",
    "pose": "shrug",
    "face": "shock",
@@ -33,41 +33,23 @@
   },
   {
    "who": "C",
-   "text": "Doscientas galletas para una boda. Mañana.",
+   "text": "Doscientas galletas para una boda. Es mañana.",
    "shot": "c_cu",
    "pose": "shrug",
    "face": "confused",
    "cface": "happy",
-   "status": null
+   "status": {
+    "text": "200 galletas para boda",
+    "kind": "progress"
+   }
   },
   {
    "who": "M",
-   "text": "¡¿Mañana?!",
+   "text": "¡No sé decorar galletas!",
    "shot": "m_cu",
    "pose": "hands_head",
    "face": "angry",
    "cface": "normal",
-   "status": null
-  },
-  {
-   "who": "C",
-   "text": "Tranquilo, ya solo faltan ciento noventa.",
-   "shot": "screen",
-   "pose": "idle",
-   "face": "shock",
-   "cface": "happy",
-   "status": {
-    "text": "200 galletas para boda",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¡Yo no sé decorar galletas!",
-   "shot": "m_ms",
-   "pose": "point",
-   "face": "angry",
-   "cface": "normal",
    "status": {
     "text": "200 galletas para boda",
     "kind": "progress"
@@ -75,104 +57,80 @@
   },
   {
    "who": "C",
-   "text": "Hace tres horas tampoco. Ya vas mejorando.",
-   "shot": "c_cu",
-   "pose": "point",
-   "face": "angry",
-   "cface": "smug",
-   "status": {
-    "text": "200 galletas para boda",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¿Y por qué tienen nombres?",
-   "shot": "m_cu",
-   "pose": "cross",
-   "face": "sus",
-   "cface": "normal",
-   "status": {
-    "text": "200 galletas para boda",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "C",
-   "text": "Porque un evento paga más por algo hecho solo para ellos. Una galleta normal no.",
+   "text": "Ya vas mejorando. Llevan el nombre de los novios: eso se paga más.",
    "shot": "c_ms",
-   "pose": "think",
-   "face": "neutral",
+   "pose": "idle",
+   "face": "confused",
    "cface": "normal",
    "status": {
-    "text": "Diseño personalizado: +$500",
+    "text": "Con el nombre de los novios",
     "kind": "check"
    },
    "tag": "1/3 · Personaliza para eventos"
   },
   {
    "who": "M",
-   "text": "¿Y cuánto más?",
+   "text": "¿Cuánto más?",
    "shot": "m_cu",
-   "pose": "self",
+   "pose": "think",
    "face": "confused",
    "cface": "normal",
    "status": {
-    "text": "Diseño personalizado: +$500",
+    "text": "Con el nombre de los novios",
     "kind": "check"
    }
   },
   {
    "who": "C",
-   "text": "El diseño se cobra aparte: quinientos. Tu idea también vale, no solo la harina.",
+   "text": "El diseño se cobra aparte: quinientos. Tu idea vale.",
    "shot": "screen",
    "pose": "idle",
    "face": "confused",
    "cface": "happy",
    "status": {
-    "text": "Pedidos con 7 días",
+    "text": "Diseño personalizado: +$500",
     "kind": "slots",
     "n": 4,
-    "note": "Ni un día menos"
+    "note": "Tu idea también vale"
    },
    "tag": "2/3 · Cobra el diseño"
   },
   {
    "who": "M",
-   "text": "¿Y por qué tan de última hora?",
+   "text": "¿Por qué tan de última hora?",
    "shot": "m_cu",
-   "pose": "self",
+   "pose": "shrug",
    "face": "confused",
    "cface": "normal",
    "status": {
-    "text": "Pedidos con 7 días",
+    "text": "Diseño personalizado: +$500",
     "kind": "slots",
     "n": 4,
-    "note": "Ni un día menos"
+    "note": "Tu idea también vale"
    }
   },
   {
    "who": "C",
-   "text": "No es de última hora. Pidieron con siete días. Esa es la regla: nada urgente, nada mal hecho.",
+   "text": "No lo es. Pidieron con siete días. Esa es la regla.",
    "shot": "c_ms",
-   "pose": "self",
-   "face": "confused",
+   "pose": "idle",
+   "face": "neutral",
    "cface": "happy",
    "status": {
-    "text": "★ 5.0 · Los novios felices",
+    "text": "★ 5.0 · Pedido con 7 días",
     "kind": "stars"
    },
    "tag": "3/3 · Fecha límite para pedidos"
   },
   {
    "who": "M",
-   "text": "¿Entonces por qué apenas las estamos haciendo?",
+   "text": "¿Y por qué apenas las hacemos?",
    "shot": "m_ms",
    "pose": "hands_head",
    "face": "shock",
    "cface": "normal",
    "status": {
-    "text": "★ 5.0 · Los novios felices",
+    "text": "★ 5.0 · Pedido con 7 días",
     "kind": "stars"
    }
   },
@@ -187,16 +145,37 @@
     "text": "ENTREGADO",
     "kind": "stamp",
     "lines": [
-     "Pedidos con 7 días",
-     "★ 5.0 · Los novios felices"
+     "Diseño personalizado: +$500",
+     "★ 5.0 · Pedido con 7 días"
     ]
    },
    "excite": true,
-   "tail": 2.6
+   "tail": 0.7
+  },
+  {
+   "who": "C",
+   "text": "¿Qué negocio le abro mañana? Dímelo en comentarios.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "ENTREGADO",
+    "kind": "stamp",
+    "lines": [
+     "Diseño personalizado: +$500",
+     "★ 5.0 · Pedido con 7 días"
+    ]
+   },
+   "excite": true,
+   "tail": 1.8
   }
  ],
  "crowd": {
   "type": "box",
   "count": 17
- }
+ },
+ "format": 2,
+ "hooktext": "200 GALLETAS PARA MAÑANA",
+ "share": "Mándaselo a ese amigo que siempre dice que va a emprender"
 }

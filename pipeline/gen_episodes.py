@@ -319,13 +319,118 @@ E = [
      "Todas se apartaron con anticipo. Nadie se queda con una estrella de siete picos en la sala.", "Clapy, ¿y esa caja que dice frágil?", "Es la piñata edición especial. Tiene mi cara. No la rompas."]),
 ]
 
+# ---------- Formato v2 (desde el episodio 21): ~30 s, gancho en texto, pide comentarios y compartir ----------
+# Datos de YouTube (nov 2026): la mitad de la gente se iba entre el segundo 6 y el 15; ganaban los videos
+# que abren con el cuarto lleno de cosas. v2 = 11 lineas cortas, consejos directos, cierre con pregunta.
+SKEL2 = [("M", "wide"), ("C", "c_cu"), ("M", "m_cu"), ("C", "c_ms"), ("M", "m_cu"), ("C", "screen"), ("M", "m_cu"),
+         ("C", "c_ms"), ("M", "m_ms"), ("C", "wide"), ("C", "c_cu")]
+VMAP = [0, 1, 2, 7, 8, 9, 10, 11, 12, 13, 13]        # variantes de pose de v1 que corresponden a cada linea
+CF2 = ["normal", "happy", "normal", "normal", "normal", "happy", "normal", "happy", "normal", "happy", "happy"]
+CTA = "¿Qué negocio le abro mañana? Dímelo en comentarios."
+SHARE = "Mándaselo a ese amigo que siempre dice que va a emprender"
+
+def build2(n, e, v):
+    e = {**e, **v.get("fix", {})}
+    rnd = random.Random(n)
+    crowd = e.get("crowd")
+    st = [None, {"text": e["s1"], "kind": "progress"}, None, {"text": e["s2"], "kind": "check"}, None,
+          {"text": e["s3"], "kind": "slots", "n": e.get("n", 5), "note": e["note"]}, None,
+          {"text": e["s4"], "kind": "stars"}, None, {"text": e["stamp"], "kind": "stamp", "lines": [e["s3"], e["s4"]]}, None]
+    lines, cur = [], None
+    for i, (who, shot) in enumerate(SKEL2):
+        if st[i]: cur = st[i]
+        pose, face = rnd.choice(VAR[VMAP[i]]) if i < 10 else ("shrug", "happy")
+        L = {"who": who, "text": v["L"][i] if i < 10 else CTA, "shot": shot, "pose": pose, "face": face, "cface": CF2[i], "status": cur}
+        if i in (3, 5, 7): L["tag"] = f"{(i - 1) // 2}/3 · {e['tips'][(i - 3) // 2]}"
+        if crowd and i in (0, 9, 10): L["excite"] = True
+        if i == 9: L["tail"] = 0.7
+        if i == 10: L["tail"] = 1.8
+        lines.append(L)
+    ep = build(n, {**e, "L": e["L"]})
+    tips = "\n".join(f"{k + 1}. {t}" for k, t in enumerate(e["tips"]))
+    tags = ep["youtube"]["hashtags"]
+    ep["youtube"]["description"] = (f"{e['hook']}\n\n3 consejos para tu negocio:\n{tips}\n\n¿Qué negocio me abre Clapy mañana? Déjalo en los comentarios 👇\n"
+                                    f"{SHARE} 😂\n\n" + " ".join(tags[1:5]))
+    ep.update(lines=lines, format=2, hooktext=v["hook"], share=SHARE)
+    return ep
+
+V2 = {
+ "tienda-de-stickers": dict(hook="500 STICKERS CON MI CARA", L=[
+    "Clapy, ¡¿qué hay en estas cajas?!", "Quinientos stickers con tu cara. Ya vendidos.", "¡¿Quinientas caras mías?!",
+    "Diseños originales. Si copias de internet, te pueden quitar todo.", "Al menos son míos.",
+    "Y van en paquetes de diez. Nadie compra uno solo.", "¿Y por qué todos dicen gracias?",
+    "Cada pedido trae un sticker sorpresa de regalo.", "¿Cuál es el de regalo?", "Tú. Dormido. Edición limitada."]),
+ "cuidado-de-mascotas": dict(hook="15 PERROS EN MI SALA", L=[
+    "Clapy, ¡¿por qué hay quince perros en mi sala?!", "Son huéspedes. Abrí tu hotel para perros.", "¡¿Y yo dónde duermo?!",
+    "En el pasillo. Cada dueño firma reglas: vacunas, comida y horarios.", "¿Hasta los perros tienen reglamento?",
+    "Y el dueño recibe dos fotos al día. Viaja tranquilo.", "¿Y de dónde salen los clientes?",
+    "De la gente que viaja. Nadie sabe qué hacer con su perro.", "¿Y si ladran toda la noche?", "Tú les cantas. El arrullo viene incluido."]),
+ "tres-leches-por-rebanada": dict(hook="10 PASTELES EN MI SALA",
+    fix=dict(s3="Rebanada: $35", n=3, note="Precio fácil de pagar", s4="★ 4.9 · Antojo de las 9 pm"), L=[
+    "Clapy, ¡¿por qué hay diez pasteles en la sala?!", "Son ciento veinte rebanadas. Ya vendidas.", "¿Por qué no enteros?",
+    "Entero: trescientos. En doce rebanadas: cuatrocientos veinte.", "¡Eso es magia!",
+    "Es matemática. Y treinta y cinco pesos se pagan sin pensar.", "¿Y por qué de noche?",
+    "A las nueve llega el antojo. Mandas mensaje y llega tu rebanada.", "¿Me guardaste una?", "Te guardé el plato. Lo puedes lamer."]),
+ "diseno-de-logos": dict(hook="10 NEGOCIOS QUIEREN MI LOGO", L=[
+    "Clapy, ¡¿diez negocios quieren un logo mío?!", "Sí. Eres diseñador desde ayer.", "¡Yo solo dibujo monitos!",
+    "Primero cinco preguntas: qué venden, a quién, qué colores odian.", "¿Qué colores odian?",
+    "Y enseñas solo dos opciones. Con diez, no eligen ninguna.", "¿Y ya que le gusta?",
+    "Le entregas todo: a color, blanco y negro, y para redes.", "¿Y mi logo?", "Eres tú dormido. Ya está en stickers."]),
+ "despensa-a-domicilio": dict(hook="11 DESPENSAS Y NINGUNA ES MÍA", L=[
+    "Clapy, ¡¿de quién son estas cajas?!", "De once vecinos. Les hacemos el súper.", "¡¿Once súpers?!",
+    "Son abuelitos del barrio. No pueden salir a cargar. Tú sí.", "¿Y cuánto cobramos?",
+    "Sesenta pesos fijos, compren mucho o poco.", "¿Y si no hay algo?",
+    "Mando foto de cada producto y el cliente decide.",
+    "¿Doña Lupe dijo que soy guapo?", "Dijo que eres puntual. Pero te veías feliz."]),
+ "kits-de-skincare": dict(hook="MI BAÑO SE LLENÓ DE CREMAS", L=[
+    "Clapy, ¡¿por qué mi baño está lleno de cajas?!", "Kits de cremas. Veintiocho pedidos.", "¡Yo solo uso jabón!",
+    "Se nota. Cada kit trae una rutina de tres pasos. Si lo entienden, lo usan.", "¡Oye!",
+    "Y a quien duda, muestra gratis. Uno de cada tres compra.", "¿Y luego?",
+    "Las cremas se acaban. Y cuando se acaban, vuelven.", "¿Me pongo una?", "Paso uno: lávate la cara. Paso dos: paga."]),
+ "renta-de-disfraces": dict(hook="25 DISFRACES EN MI SALA",
+    fix=dict(s2="Renta: $150 por día", s3="Depósito: $200", n=4, note="Se devuelve si regresa bien", s4="★ 4.9 · Como nuevos"), L=[
+    "Clapy, ¡¿qué hay en estas cajas?!", "Veinticinco disfraces. Abrí tu renta.", "¡¿Renta?!",
+    "Nadie compra un disfraz para usarlo una vez. Rentarlo, sí.", "¿Y si no lo regresan?",
+    "Dejan depósito de doscientos. Si regresa bien, se devuelve.", "Muy inteligente.",
+    "Al regresar, lo lavo y reviso costuras. Como nuevo.",
+    "¿Y quién prueba que estén bien?", "Tú. Mañana sales de dinosaurio por el barrio."]),
+ "galletas-decoradas": dict(hook="200 GALLETAS PARA MAÑANA",
+    fix=dict(s2="Con el nombre de los novios", s3="Diseño personalizado: +$500", n=4, note="Tu idea también vale", s4="★ 5.0 · Pedido con 7 días"), L=[
+    "Clapy, ¡¿qué hay en estas cajas?!", "Doscientas galletas para una boda. Es mañana.", "¡No sé decorar galletas!",
+    "Ya vas mejorando. Llevan el nombre de los novios: eso se paga más.", "¿Cuánto más?",
+    "El diseño se cobra aparte: quinientos. Tu idea vale.", "¿Por qué tan de última hora?",
+    "No lo es. Pidieron con siete días. Esa es la regla.",
+    "¿Y por qué apenas las hacemos?", "Porque tú dormiste seis días."]),
+ "reparacion-de-celulares": dict(hook="14 CELULARES ROTOS EN MI CUARTO",
+    fix=dict(s2="Solo pantallas y baterías", s3="Diagnóstico gratis", n=2, note="El cliente entra sin miedo"), L=[
+    "Clapy, ¡¿qué hay en estas cajitas?!", "Catorce celulares rotos. Abrí tu taller.", "¡Yo los rompo, no los arreglo!",
+    "Solo pantallas y baterías. Es lo que más se rompe.", "¿Y cómo sé qué tienen?",
+    "Diagnóstico gratis. El cliente entra sin miedo.", "¿Y si se vuelve a romper?",
+    "Garantía de treinta días. Así confían en ti.",
+    "¿Y mi celular? No lo encuentro.", "Está en una cajita. Ya te toca turno."]),
+ "comida-casera-para-perros": dict(hook="13 PERROS EN MI COCINA", L=[
+    "Clapy, ¡¿por qué hay trece perros en la cocina?!", "Esperan su cena. Abrí tu cocina para perros.", "¿Y es sana para ellos?",
+    "Una veterinaria revisó la receta. Si se come, primero te aseguras.", "¿Hasta veterinaria?",
+    "Se vende por semana. Cada lunes llega, porcionada por peso.", "¿Y por qué la prefieren?",
+    "Cuento la historia: hecha en casa, con ingredientes que se ven.", "¿Y mi cena?", "Hay una porción extra. Pesas setenta kilos, ¿verdad?"]),
+ "pinatas-navidenas": dict(hook="60 PIÑATAS EN MI SALA", L=[
+    "Clapy, ¡¿qué hay en estas cajas?!", "Sesenta piñatas para posadas. Todas apartadas.", "¿Cuándo las hiciste?",
+    "Desde octubre. Si empiezas en diciembre, ya llegaste tarde.", "Tiene lógica.",
+    "No vendo solo la piñata: piñata, dulces y palo. Todo junto.", "¿Y si no vienen por ella?",
+    "Todas se apartaron con anticipo. Nadie me deja una piñata.",
+    "¿Y esa caja que dice frágil?", "Edición especial. Tiene mi cara. No la rompas."]),
+}
+
 def main():
     q = os.path.join(ROOT, "episodes", "queue"); os.makedirs(q, exist_ok=True)
     for k, e in enumerate(E):
         n = k + 2
         assert len(e["L"]) == 14, e["slug"]
-        json.dump(build(n, e), open(os.path.join(q, f"{n:04d}_{e['slug']}.json"), "w"), ensure_ascii=False, indent=1)
-    print(len(E), "episodios")
+        v = V2.get(e["slug"])
+        if v: assert len(v["L"]) == 10, e["slug"]
+        ep = build2(n, e, v) if v else build(n, e)
+        json.dump(ep, open(os.path.join(q, f"{n:04d}_{e['slug']}.json"), "w"), ensure_ascii=False, indent=1)
+    print(len(E), "episodios,", len(V2), "en formato v2")
 
 if __name__ == "__main__":
     main()

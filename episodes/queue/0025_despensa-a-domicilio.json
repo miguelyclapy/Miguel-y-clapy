@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy me puso a hacer mandados para los vecinos 🛒 #shorts",
-  "description": "El comedor está lleno de cajas con despensa. Ninguna es de Miguel.\n\n3 consejos para tu negocio:\n1. Atiende a quien no puede salir\n2. Cobra una tarifa fija\n3. Confirma cada producto\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "El comedor está lleno de cajas con despensa. Ninguna es de Miguel.\n\n3 consejos para tu negocio:\n1. Atiende a quien no puede salir\n2. Cobra una tarifa fija\n3. Confirma cada producto\n\n¿Qué negocio me abre Clapy mañana? Déjalo en los comentarios 👇\nMándaselo a ese amigo que siempre dice que va a emprender 😂\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿de quién son todas estas cajas?",
+   "text": "Clapy, ¡¿de quién son estas cajas?!",
    "shot": "wide",
    "pose": "hands_head",
    "face": "shock",
@@ -38,36 +38,18 @@
    "pose": "shrug",
    "face": "confused",
    "cface": "happy",
-   "status": null
+   "status": {
+    "text": "11 despensas por entregar",
+    "kind": "progress"
+   }
   },
   {
    "who": "M",
-   "text": "¡¿Yo hago el súper de once personas?!",
+   "text": "¡¿Once súpers?!",
    "shot": "m_cu",
    "pose": "arms_up",
    "face": "shock",
    "cface": "normal",
-   "status": null
-  },
-  {
-   "who": "C",
-   "text": "Y sin pelearte por la última fila de la caja. Ya tienes experiencia.",
-   "shot": "screen",
-   "pose": "cross",
-   "face": "sus",
-   "cface": "happy",
-   "status": {
-    "text": "11 despensas por entregar",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¿Y quién te pidió esto?",
-   "shot": "m_ms",
-   "pose": "cross",
-   "face": "angry",
-   "cface": "normal",
    "status": {
     "text": "11 despensas por entregar",
     "kind": "progress"
@@ -75,31 +57,7 @@
   },
   {
    "who": "C",
-   "text": "Los abuelitos del barrio. No pueden cargar, tú sí.",
-   "shot": "c_cu",
-   "pose": "cross",
-   "face": "sus",
-   "cface": "smug",
-   "status": {
-    "text": "11 despensas por entregar",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¿Y cuánto cobramos?",
-   "shot": "m_cu",
-   "pose": "think",
-   "face": "sus",
-   "cface": "normal",
-   "status": {
-    "text": "11 despensas por entregar",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "C",
-   "text": "Sesenta pesos fijos por mandado. Sin importar si compran mucho o poco. Claro y sencillo.",
+   "text": "Son abuelitos del barrio. No pueden salir a cargar. Tú sí.",
    "shot": "c_ms",
    "pose": "think",
    "face": "neutral",
@@ -112,10 +70,10 @@
   },
   {
    "who": "M",
-   "text": "Suena justo.",
+   "text": "¿Y cuánto cobramos?",
    "shot": "m_cu",
-   "pose": "think",
-   "face": "confused",
+   "pose": "shrug",
+   "face": "sus",
    "cface": "normal",
    "status": {
     "text": "Clientes: abuelitos del barrio",
@@ -124,7 +82,7 @@
   },
   {
    "who": "C",
-   "text": "Y antes de pagar, mando foto de cada producto. Si no hay, el cliente decide qué cambiar.",
+   "text": "Sesenta pesos fijos, compren mucho o poco.",
    "shot": "screen",
    "pose": "think",
    "face": "neutral",
@@ -139,9 +97,9 @@
   },
   {
    "who": "M",
-   "text": "¿Por eso tienes cinco estrellas?",
+   "text": "¿Y si no hay algo?",
    "shot": "m_cu",
-   "pose": "shrug",
+   "pose": "self",
    "face": "confused",
    "cface": "normal",
    "status": {
@@ -153,7 +111,7 @@
   },
   {
    "who": "C",
-   "text": "Por eso, y porque doña Lupe dice que eres muy guapo.",
+   "text": "Mando foto de cada producto y el cliente decide.",
    "shot": "c_ms",
    "pose": "idle",
    "face": "neutral",
@@ -166,7 +124,7 @@
   },
   {
    "who": "M",
-   "text": "¿En serio?",
+   "text": "¿Doña Lupe dijo que soy guapo?",
    "shot": "m_ms",
    "pose": "arms_up",
    "face": "angry",
@@ -178,8 +136,26 @@
   },
   {
    "who": "C",
-   "text": "No. Dijo que eras puntual. Pero te veías feliz.",
+   "text": "Dijo que eres puntual. Pero te veías feliz.",
    "shot": "wide",
+   "pose": "hands_head",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "ENTREGADO",
+    "kind": "stamp",
+    "lines": [
+     "Tarifa fija: $60",
+     "★ 5.0 · Nunca falta nada"
+    ]
+   },
+   "excite": true,
+   "tail": 0.7
+  },
+  {
+   "who": "C",
+   "text": "¿Qué negocio le abro mañana? Dímelo en comentarios.",
+   "shot": "c_cu",
    "pose": "shrug",
    "face": "happy",
    "cface": "happy",
@@ -192,11 +168,14 @@
     ]
    },
    "excite": true,
-   "tail": 2.6
+   "tail": 1.8
   }
  ],
  "crowd": {
   "type": "box",
   "count": 17
- }
+ },
+ "format": 2,
+ "hooktext": "11 DESPENSAS Y NINGUNA ES MÍA",
+ "share": "Mándaselo a ese amigo que siempre dice que va a emprender"
 }

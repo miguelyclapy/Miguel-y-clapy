@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy vende kits de cuidado de la piel desde mi baño 🧴 #shorts",
-  "description": "Miguel entra al baño y hay más cremas que jabón. Clapy armó kits de cuidado de piel.\n\n3 consejos para tu negocio:\n1. Explica el paso a paso\n2. Ofrece una muestra\n3. Ten productos de recompra\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "Miguel entra al baño y hay más cremas que jabón. Clapy armó kits de cuidado de piel.\n\n3 consejos para tu negocio:\n1. Explica el paso a paso\n2. Ofrece una muestra\n3. Ten productos de recompra\n\n¿Qué negocio me abre Clapy mañana? Déjalo en los comentarios 👇\nMándaselo a ese amigo que siempre dice que va a emprender 😂\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿qué hacen tantas cajas en mi baño?",
+   "text": "Clapy, ¡¿por qué mi baño está lleno de cajas?!",
    "shot": "wide",
    "pose": "point",
    "face": "shock",
@@ -33,12 +33,15 @@
   },
   {
    "who": "C",
-   "text": "Son kits de cremas. Veintiocho pedidos.",
+   "text": "Kits de cremas. Veintiocho pedidos.",
    "shot": "c_cu",
    "pose": "shrug",
    "face": "confused",
    "cface": "happy",
-   "status": null
+   "status": {
+    "text": "28 kits pedidos",
+    "kind": "progress"
+   }
   },
   {
    "who": "M",
@@ -47,27 +50,6 @@
    "pose": "hands_head",
    "face": "angry",
    "cface": "normal",
-   "status": null
-  },
-  {
-   "who": "C",
-   "text": "Por eso tu piel es nuestra peor publicidad.",
-   "shot": "screen",
-   "pose": "idle",
-   "face": "shock",
-   "cface": "happy",
-   "status": {
-    "text": "28 kits pedidos",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¡Oye!",
-   "shot": "m_ms",
-   "pose": "arms_up",
-   "face": "angry",
-   "cface": "normal",
    "status": {
     "text": "28 kits pedidos",
     "kind": "progress"
@@ -75,34 +57,10 @@
   },
   {
    "who": "C",
-   "text": "Era broma. Un poquito.",
-   "shot": "c_cu",
-   "pose": "point",
-   "face": "angry",
-   "cface": "smug",
-   "status": {
-    "text": "28 kits pedidos",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¿Y quién sabe usar tantas cremas?",
-   "shot": "m_cu",
-   "pose": "think",
-   "face": "sus",
-   "cface": "normal",
-   "status": {
-    "text": "28 kits pedidos",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "C",
-   "text": "Nadie. Por eso cada kit trae una rutina de tres pasos. Si lo entienden, lo usan.",
+   "text": "Se nota. Cada kit trae una rutina de tres pasos. Si lo entienden, lo usan.",
    "shot": "c_ms",
-   "pose": "think",
-   "face": "neutral",
+   "pose": "idle",
+   "face": "confused",
    "cface": "normal",
    "status": {
     "text": "Rutina de 3 pasos incluida",
@@ -112,9 +70,9 @@
   },
   {
    "who": "M",
-   "text": "¿Tres pasos? ¿Nada más?",
+   "text": "¡Oye!",
    "shot": "m_cu",
-   "pose": "think",
+   "pose": "self",
    "face": "confused",
    "cface": "normal",
    "status": {
@@ -124,7 +82,7 @@
   },
   {
    "who": "C",
-   "text": "Y a quien duda, le mando muestra gratis. Uno de cada tres termina comprando.",
+   "text": "Y a quien duda, muestra gratis. Uno de cada tres compra.",
    "shot": "screen",
    "pose": "idle",
    "face": "confused",
@@ -139,9 +97,9 @@
   },
   {
    "who": "M",
-   "text": "¿Y luego qué?",
+   "text": "¿Y luego?",
    "shot": "m_cu",
-   "pose": "shrug",
+   "pose": "self",
    "face": "confused",
    "cface": "normal",
    "status": {
@@ -153,7 +111,7 @@
   },
   {
    "who": "C",
-   "text": "Las cremas se acaban. Y cuando se acaban, vuelven. Eso es lo que hace crecer el negocio.",
+   "text": "Las cremas se acaban. Y cuando se acaban, vuelven.",
    "shot": "c_ms",
    "pose": "idle",
    "face": "neutral",
@@ -166,7 +124,7 @@
   },
   {
    "who": "M",
-   "text": "Clapy, ¿me pongo una?",
+   "text": "¿Me pongo una?",
    "shot": "m_ms",
    "pose": "arms_up",
    "face": "angry",
@@ -192,11 +150,32 @@
     ]
    },
    "excite": true,
-   "tail": 2.6
+   "tail": 0.7
+  },
+  {
+   "who": "C",
+   "text": "¿Qué negocio le abro mañana? Dímelo en comentarios.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "ENVIADO",
+    "kind": "stamp",
+    "lines": [
+     "Muestras enviadas",
+     "★ 4.8 · Volvieron por más"
+    ]
+   },
+   "excite": true,
+   "tail": 1.8
   }
  ],
  "crowd": {
   "type": "box",
   "count": 17
- }
+ },
+ "format": 2,
+ "hooktext": "MI BAÑO SE LLENÓ DE CREMAS",
+ "share": "Mándaselo a ese amigo que siempre dice que va a emprender"
 }

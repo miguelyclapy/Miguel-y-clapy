@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy cocina comida casera… para perros 🍲🐶 #shorts",
-  "description": "Trece perros esperan en la cocina. Clapy está cocinando su cena.\n\n3 consejos para tu negocio:\n1. Asesórate con un experto\n2. Vende por suscripción semanal\n3. Cuenta la historia del producto\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "Trece perros esperan en la cocina. Clapy está cocinando su cena.\n\n3 consejos para tu negocio:\n1. Asesórate con un experto\n2. Vende por suscripción semanal\n3. Cuenta la historia del producto\n\n¿Qué negocio me abre Clapy mañana? Déjalo en los comentarios 👇\nMándaselo a ese amigo que siempre dice que va a emprender 😂\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué hay trece perros en la cocina?",
+   "text": "Clapy, ¡¿por qué hay trece perros en la cocina?!",
    "shot": "wide",
    "pose": "point",
    "face": "shock",
@@ -38,36 +38,18 @@
    "pose": "think",
    "face": "sus",
    "cface": "happy",
-   "status": null
+   "status": {
+    "text": "13 perritos suscritos",
+    "kind": "progress"
+   }
   },
   {
    "who": "M",
-   "text": "¿Comida para perros? ¿Casera?",
+   "text": "¿Y es sana para ellos?",
    "shot": "m_cu",
    "pose": "hands_head",
    "face": "angry",
    "cface": "normal",
-   "status": null
-  },
-  {
-   "who": "C",
-   "text": "Pollo, arroz y verduras. Mejor que lo que tú cenaste.",
-   "shot": "screen",
-   "pose": "idle",
-   "face": "shock",
-   "cface": "happy",
-   "status": {
-    "text": "13 perritos suscritos",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¡Yo cené cereal!",
-   "shot": "m_ms",
-   "pose": "cross",
-   "face": "angry",
-   "cface": "normal",
    "status": {
     "text": "13 perritos suscritos",
     "kind": "progress"
@@ -75,31 +57,7 @@
   },
   {
    "who": "C",
-   "text": "Exacto.",
-   "shot": "c_cu",
-   "pose": "point",
-   "face": "angry",
-   "cface": "smug",
-   "status": {
-    "text": "13 perritos suscritos",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¿Y cómo sabes que es sano para ellos?",
-   "shot": "m_cu",
-   "pose": "shrug",
-   "face": "confused",
-   "cface": "normal",
-   "status": {
-    "text": "13 perritos suscritos",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "C",
-   "text": "Una veterinaria revisó la receta. Cuando vendes algo que se come, primero se asegura.",
+   "text": "Una veterinaria revisó la receta. Si se come, primero te aseguras.",
    "shot": "c_ms",
    "pose": "idle",
    "face": "confused",
@@ -112,10 +70,10 @@
   },
   {
    "who": "M",
-   "text": "¿Hasta tienes veterinaria?",
+   "text": "¿Hasta veterinaria?",
    "shot": "m_cu",
-   "pose": "self",
-   "face": "confused",
+   "pose": "shrug",
+   "face": "sus",
    "cface": "normal",
    "status": {
     "text": "Receta revisada por veterinaria",
@@ -124,10 +82,10 @@
   },
   {
    "who": "C",
-   "text": "Y se vende por semana. Cada lunes llega su comida, ya porcionada por su peso.",
+   "text": "Se vende por semana. Cada lunes llega, porcionada por peso.",
    "shot": "screen",
-   "pose": "think",
-   "face": "neutral",
+   "pose": "idle",
+   "face": "confused",
    "cface": "happy",
    "status": {
     "text": "Entrega semanal: lunes",
@@ -139,10 +97,10 @@
   },
   {
    "who": "M",
-   "text": "¿Y por qué la gente la prefiere?",
+   "text": "¿Y por qué la prefieren?",
    "shot": "m_cu",
-   "pose": "shrug",
-   "face": "confused",
+   "pose": "hands_head",
+   "face": "shock",
    "cface": "normal",
    "status": {
     "text": "Entrega semanal: lunes",
@@ -153,7 +111,7 @@
   },
   {
    "who": "C",
-   "text": "Porque cuento la historia: cocinada en casa, con ingredientes que se ven. Eso da confianza.",
+   "text": "Cuento la historia: hecha en casa, con ingredientes que se ven.",
    "shot": "c_ms",
    "pose": "self",
    "face": "confused",
@@ -166,10 +124,10 @@
   },
   {
    "who": "M",
-   "text": "Clapy, ¿y mi cena?",
+   "text": "¿Y mi cena?",
    "shot": "m_ms",
-   "pose": "arms_up",
-   "face": "angry",
+   "pose": "hands_head",
+   "face": "shock",
    "cface": "normal",
    "status": {
     "text": "★ 5.0 · Plato limpio",
@@ -192,11 +150,32 @@
     ]
    },
    "excite": true,
-   "tail": 2.6
+   "tail": 0.7
+  },
+  {
+   "who": "C",
+   "text": "¿Qué negocio le abro mañana? Dímelo en comentarios.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "SERVIDO",
+    "kind": "stamp",
+    "lines": [
+     "Entrega semanal: lunes",
+     "★ 5.0 · Plato limpio"
+    ]
+   },
+   "excite": true,
+   "tail": 1.8
   }
  ],
  "crowd": {
   "type": "dog",
   "count": 13
- }
+ },
+ "format": 2,
+ "hooktext": "13 PERROS EN MI COCINA",
+ "share": "Mándaselo a ese amigo que siempre dice que va a emprender"
 }

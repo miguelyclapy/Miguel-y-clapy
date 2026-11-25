@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy llenó mi sala de piñatas para las posadas 🪅 #shorts",
-  "description": "Diciembre llegó y la sala de Miguel está llena de cajas con piñatas. Clapy ya vendió todas para las posadas.\n\n3 consejos para tu negocio:\n1. Prepárate antes de la temporada\n2. Vende el paquete completo\n3. Aparta con anticipo\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "Diciembre llegó y la sala de Miguel está llena de cajas con piñatas. Clapy ya vendió todas para las posadas.\n\n3 consejos para tu negocio:\n1. Prepárate antes de la temporada\n2. Vende el paquete completo\n3. Aparta con anticipo\n\n¿Qué negocio me abre Clapy mañana? Déjalo en los comentarios 👇\nMándaselo a ese amigo que siempre dice que va a emprender 😂\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿qué hay en todas estas cajas?",
+   "text": "Clapy, ¡¿qué hay en estas cajas?!",
    "shot": "wide",
    "pose": "shrug",
    "face": "shock",
@@ -33,41 +33,23 @@
   },
   {
    "who": "C",
-   "text": "Sesenta piñatas. Ya empezaron las posadas y todas están apartadas.",
+   "text": "Sesenta piñatas para posadas. Todas apartadas.",
    "shot": "c_cu",
    "pose": "think",
    "face": "sus",
    "cface": "happy",
-   "status": null
+   "status": {
+    "text": "60 piñatas apartadas",
+    "kind": "progress"
+   }
   },
   {
    "who": "M",
-   "text": "¡¿Todas?!",
+   "text": "¿Cuándo las hiciste?",
    "shot": "m_cu",
    "pose": "arms_up",
    "face": "shock",
    "cface": "normal",
-   "status": null
-  },
-  {
-   "who": "C",
-   "text": "Todas. Y siguen llegando mensajes.",
-   "shot": "screen",
-   "pose": "cross",
-   "face": "sus",
-   "cface": "happy",
-   "status": {
-    "text": "60 piñatas apartadas",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¿Y cuándo las hiciste?",
-   "shot": "m_ms",
-   "pose": "point",
-   "face": "angry",
-   "cface": "normal",
    "status": {
     "text": "60 piñatas apartadas",
     "kind": "progress"
@@ -75,34 +57,10 @@
   },
   {
    "who": "C",
-   "text": "Desde octubre. Mientras tú pensabas en Halloween.",
-   "shot": "c_cu",
-   "pose": "point",
-   "face": "angry",
-   "cface": "smug",
-   "status": {
-    "text": "60 piñatas apartadas",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¿Por qué tan temprano?",
-   "shot": "m_cu",
-   "pose": "think",
-   "face": "sus",
-   "cface": "normal",
-   "status": {
-    "text": "60 piñatas apartadas",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "C",
-   "text": "Porque en diciembre todos quieren piñata. Si empiezas en diciembre, ya llegaste tarde.",
+   "text": "Desde octubre. Si empiezas en diciembre, ya llegaste tarde.",
    "shot": "c_ms",
-   "pose": "idle",
-   "face": "confused",
+   "pose": "think",
+   "face": "neutral",
    "cface": "normal",
    "status": {
     "text": "Hechas desde octubre",
@@ -112,10 +70,10 @@
   },
   {
    "who": "M",
-   "text": "Eso es cierto.",
+   "text": "Tiene lógica.",
    "shot": "m_cu",
-   "pose": "shrug",
-   "face": "sus",
+   "pose": "think",
+   "face": "confused",
    "cface": "normal",
    "status": {
     "text": "Hechas desde octubre",
@@ -124,7 +82,7 @@
   },
   {
    "who": "C",
-   "text": "Y no vendo solo la piñata: piñata, dulces y palo. El cliente resuelve todo en una compra.",
+   "text": "No vendo solo la piñata: piñata, dulces y palo. Todo junto.",
    "shot": "screen",
    "pose": "idle",
    "face": "confused",
@@ -139,9 +97,9 @@
   },
   {
    "who": "M",
-   "text": "¿Y si alguien no viene por la suya?",
+   "text": "¿Y si no vienen por ella?",
    "shot": "m_cu",
-   "pose": "shrug",
+   "pose": "self",
    "face": "confused",
    "cface": "normal",
    "status": {
@@ -153,7 +111,7 @@
   },
   {
    "who": "C",
-   "text": "Todas se apartaron con anticipo. Nadie se queda con una estrella de siete picos en la sala.",
+   "text": "Todas se apartaron con anticipo. Nadie me deja una piñata.",
    "shot": "c_ms",
    "pose": "self",
    "face": "confused",
@@ -166,9 +124,9 @@
   },
   {
    "who": "M",
-   "text": "Clapy, ¿y esa caja que dice frágil?",
+   "text": "¿Y esa caja que dice frágil?",
    "shot": "m_ms",
-   "pose": "arms_up",
+   "pose": "point",
    "face": "angry",
    "cface": "normal",
    "status": {
@@ -178,8 +136,26 @@
   },
   {
    "who": "C",
-   "text": "Es la piñata edición especial. Tiene mi cara. No la rompas.",
+   "text": "Edición especial. Tiene mi cara. No la rompas.",
    "shot": "wide",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "APARTADO",
+    "kind": "stamp",
+    "lines": [
+     "Paquete posada completo",
+     "★ 5.0 · 60 posadas felices"
+    ]
+   },
+   "excite": true,
+   "tail": 0.7
+  },
+  {
+   "who": "C",
+   "text": "¿Qué negocio le abro mañana? Dímelo en comentarios.",
+   "shot": "c_cu",
    "pose": "shrug",
    "face": "happy",
    "cface": "happy",
@@ -192,11 +168,14 @@
     ]
    },
    "excite": true,
-   "tail": 2.6
+   "tail": 1.8
   }
  ],
  "crowd": {
   "type": "box",
   "count": 17
- }
+ },
+ "format": 2,
+ "hooktext": "60 PIÑATAS EN MI SALA",
+ "share": "Mándaselo a ese amigo que siempre dice que va a emprender"
 }

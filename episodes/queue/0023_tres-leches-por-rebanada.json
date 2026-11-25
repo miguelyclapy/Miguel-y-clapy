@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy vende pastel por rebanada 🍰 #shorts",
-  "description": "Miguel ve pasteles por toda la sala. Clapy no los vende enteros: los vende por rebanada.\n\n3 consejos para tu negocio:\n1. Divide para ganar más\n2. Precio fácil de pagar\n3. Vende en la hora del antojo\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "Miguel ve pasteles por toda la sala. Clapy no los vende enteros: los vende por rebanada.\n\n3 consejos para tu negocio:\n1. Divide para ganar más\n2. Precio fácil de pagar\n3. Vende en la hora del antojo\n\n¿Qué negocio me abre Clapy mañana? Déjalo en los comentarios 👇\nMándaselo a ese amigo que siempre dice que va a emprender 😂\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué hay diez pasteles en la sala?",
+   "text": "Clapy, ¡¿por qué hay diez pasteles en la sala?!",
    "shot": "wide",
    "pose": "hands_head",
    "face": "shock",
@@ -33,41 +33,23 @@
   },
   {
    "who": "C",
-   "text": "Ciento veinte rebanadas. Ya están vendidas.",
+   "text": "Son ciento veinte rebanadas. Ya vendidas.",
    "shot": "c_cu",
    "pose": "shrug",
    "face": "confused",
    "cface": "happy",
-   "status": null
+   "status": {
+    "text": "120 rebanadas vendidas",
+    "kind": "progress"
+   }
   },
   {
    "who": "M",
-   "text": "¿Rebanadas? ¿Por qué no pasteles enteros?",
+   "text": "¿Por qué no enteros?",
    "shot": "m_cu",
    "pose": "arms_up",
    "face": "shock",
    "cface": "normal",
-   "status": null
-  },
-  {
-   "who": "C",
-   "text": "Porque un pastel entero casi nadie lo compra. Una rebanada, todo el mundo.",
-   "shot": "screen",
-   "pose": "cross",
-   "face": "sus",
-   "cface": "happy",
-   "status": {
-    "text": "120 rebanadas vendidas",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "Pero es el mismo pastel.",
-   "shot": "m_ms",
-   "pose": "arms_up",
-   "face": "angry",
-   "cface": "normal",
    "status": {
     "text": "120 rebanadas vendidas",
     "kind": "progress"
@@ -75,31 +57,7 @@
   },
   {
    "who": "C",
-   "text": "Sí. Pero partido en doce, gana casi el doble.",
-   "shot": "c_cu",
-   "pose": "cross",
-   "face": "sus",
-   "cface": "smug",
-   "status": {
-    "text": "120 rebanadas vendidas",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¿El doble? ¿Cómo?",
-   "shot": "m_cu",
-   "pose": "cross",
-   "face": "sus",
-   "cface": "normal",
-   "status": {
-    "text": "120 rebanadas vendidas",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "C",
-   "text": "Un pastel entero lo vendo en trescientos. Doce rebanadas a treinta y cinco son cuatrocientos veinte.",
+   "text": "Entero: trescientos. En doce rebanadas: cuatrocientos veinte.",
    "shot": "c_ms",
    "pose": "think",
    "face": "neutral",
@@ -112,9 +70,9 @@
   },
   {
    "who": "M",
-   "text": "Eso es magia.",
+   "text": "¡Eso es magia!",
    "shot": "m_cu",
-   "pose": "think",
+   "pose": "self",
    "face": "confused",
    "cface": "normal",
    "status": {
@@ -124,16 +82,16 @@
   },
   {
    "who": "C",
-   "text": "Es matemática. Y treinta y cinco pesos se pagan sin pensarlo. Precio fácil, venta fácil.",
+   "text": "Es matemática. Y treinta y cinco pesos se pagan sin pensar.",
    "shot": "screen",
-   "pose": "idle",
-   "face": "confused",
+   "pose": "think",
+   "face": "neutral",
    "cface": "happy",
    "status": {
-    "text": "Hora del antojo: 9 pm",
+    "text": "Rebanada: $35",
     "kind": "slots",
     "n": 3,
-    "note": "Pedidos por WhatsApp"
+    "note": "Precio fácil de pagar"
    },
    "tag": "2/3 · Precio fácil de pagar"
   },
@@ -141,38 +99,38 @@
    "who": "M",
    "text": "¿Y por qué de noche?",
    "shot": "m_cu",
-   "pose": "hands_head",
-   "face": "shock",
+   "pose": "shrug",
+   "face": "confused",
    "cface": "normal",
    "status": {
-    "text": "Hora del antojo: 9 pm",
+    "text": "Rebanada: $35",
     "kind": "slots",
     "n": 3,
-    "note": "Pedidos por WhatsApp"
+    "note": "Precio fácil de pagar"
    }
   },
   {
    "who": "C",
-   "text": "Porque a las nueve llega el antojo. Mandas mensaje, llega la rebanada.",
+   "text": "A las nueve llega el antojo. Mandas mensaje y llega tu rebanada.",
    "shot": "c_ms",
    "pose": "idle",
    "face": "neutral",
    "cface": "happy",
    "status": {
-    "text": "★ 4.9 · Ya es costumbre",
+    "text": "★ 4.9 · Antojo de las 9 pm",
     "kind": "stars"
    },
    "tag": "3/3 · Vende en la hora del antojo"
   },
   {
    "who": "M",
-   "text": "Clapy, ¿me guardaste una?",
+   "text": "¿Me guardaste una?",
    "shot": "m_ms",
    "pose": "arms_up",
    "face": "angry",
    "cface": "normal",
    "status": {
-    "text": "★ 4.9 · Ya es costumbre",
+    "text": "★ 4.9 · Antojo de las 9 pm",
     "kind": "stars"
    }
   },
@@ -180,23 +138,44 @@
    "who": "C",
    "text": "Te guardé el plato. Lo puedes lamer.",
    "shot": "wide",
-   "pose": "arms_up",
-   "face": "shock",
+   "pose": "shrug",
+   "face": "happy",
    "cface": "happy",
    "status": {
     "text": "AGOTADO",
     "kind": "stamp",
     "lines": [
-     "Hora del antojo: 9 pm",
-     "★ 4.9 · Ya es costumbre"
+     "Rebanada: $35",
+     "★ 4.9 · Antojo de las 9 pm"
     ]
    },
    "excite": true,
-   "tail": 2.6
+   "tail": 0.7
+  },
+  {
+   "who": "C",
+   "text": "¿Qué negocio le abro mañana? Dímelo en comentarios.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "AGOTADO",
+    "kind": "stamp",
+    "lines": [
+     "Rebanada: $35",
+     "★ 4.9 · Antojo de las 9 pm"
+    ]
+   },
+   "excite": true,
+   "tail": 1.8
   }
  ],
  "crowd": {
   "type": "cake",
   "count": 10
- }
+ },
+ "format": 2,
+ "hooktext": "10 PASTELES EN MI SALA",
+ "share": "Mándaselo a ese amigo que siempre dice que va a emprender"
 }

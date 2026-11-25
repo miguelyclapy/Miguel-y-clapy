@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy me puso a diseñar logos 🎨 #shorts",
-  "description": "Miguel tiene diez negocios esperando su logo. Clapy le prometió entregarlos esta semana.\n\n3 consejos para tu negocio:\n1. Haz preguntas antes de diseñar\n2. Muestra pocas opciones\n3. Entrega todos los archivos\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "Miguel tiene diez negocios esperando su logo. Clapy le prometió entregarlos esta semana.\n\n3 consejos para tu negocio:\n1. Haz preguntas antes de diseñar\n2. Muestra pocas opciones\n3. Entrega todos los archivos\n\n¿Qué negocio me abre Clapy mañana? Déjalo en los comentarios 👇\nMándaselo a ese amigo que siempre dice que va a emprender 😂\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué hay diez negocios esperando un logo mío?",
+   "text": "Clapy, ¡¿diez negocios quieren un logo mío?!",
    "shot": "wide",
    "pose": "point",
    "face": "shock",
@@ -32,12 +32,15 @@
   },
   {
    "who": "C",
-   "text": "Porque eres diseñador. Desde ayer.",
+   "text": "Sí. Eres diseñador desde ayer.",
    "shot": "c_cu",
    "pose": "think",
    "face": "sus",
    "cface": "happy",
-   "status": null
+   "status": {
+    "text": "10 logos pendientes",
+    "kind": "progress"
+   }
   },
   {
    "who": "M",
@@ -46,27 +49,6 @@
    "pose": "hands_head",
    "face": "angry",
    "cface": "normal",
-   "status": null
-  },
-  {
-   "who": "C",
-   "text": "Y muy bien. Ahora dibujas monitos para negocios.",
-   "shot": "screen",
-   "pose": "idle",
-   "face": "shock",
-   "cface": "happy",
-   "status": {
-    "text": "10 logos pendientes",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¿Y si no les gusta?",
-   "shot": "m_ms",
-   "pose": "point",
-   "face": "angry",
-   "cface": "normal",
    "status": {
     "text": "10 logos pendientes",
     "kind": "progress"
@@ -74,31 +56,7 @@
   },
   {
    "who": "C",
-   "text": "Por eso primero preguntamos.",
-   "shot": "c_cu",
-   "pose": "point",
-   "face": "angry",
-   "cface": "smug",
-   "status": {
-    "text": "10 logos pendientes",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¿Preguntar qué?",
-   "shot": "m_cu",
-   "pose": "think",
-   "face": "sus",
-   "cface": "normal",
-   "status": {
-    "text": "10 logos pendientes",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "C",
-   "text": "Cinco preguntas: qué venden, a quién, qué colores odian. Diseñar sin preguntar es adivinar.",
+   "text": "Primero cinco preguntas: qué venden, a quién, qué colores odian.",
    "shot": "c_ms",
    "pose": "idle",
    "face": "confused",
@@ -113,8 +71,8 @@
    "who": "M",
    "text": "¿Qué colores odian?",
    "shot": "m_cu",
-   "pose": "shrug",
-   "face": "sus",
+   "pose": "think",
+   "face": "confused",
    "cface": "normal",
    "status": {
     "text": "Cuestionario de 5 preguntas",
@@ -123,7 +81,7 @@
   },
   {
    "who": "C",
-   "text": "Y solo enseñas dos opciones. Con diez, el cliente se confunde y no elige ninguna.",
+   "text": "Y enseñas solo dos opciones. Con diez, no eligen ninguna.",
    "shot": "screen",
    "pose": "idle",
    "face": "confused",
@@ -140,7 +98,7 @@
    "who": "M",
    "text": "¿Y ya que le gusta?",
    "shot": "m_cu",
-   "pose": "shrug",
+   "pose": "self",
    "face": "confused",
    "cface": "normal",
    "status": {
@@ -152,7 +110,7 @@
   },
   {
    "who": "C",
-   "text": "Le entregas todo: a color, blanco y negro, y para redes. Que nunca te tenga que volver a pedir nada.",
+   "text": "Le entregas todo: a color, blanco y negro, y para redes.",
    "shot": "c_ms",
    "pose": "self",
    "face": "confused",
@@ -165,7 +123,7 @@
   },
   {
    "who": "M",
-   "text": "Clapy, ¿y mi logo?",
+   "text": "¿Y mi logo?",
    "shot": "m_ms",
    "pose": "point",
    "face": "angry",
@@ -177,10 +135,10 @@
   },
   {
    "who": "C",
-   "text": "Eres tú dormido. Ya lo tenemos en stickers.",
+   "text": "Eres tú dormido. Ya está en stickers.",
    "shot": "wide",
-   "pose": "hands_head",
-   "face": "shock",
+   "pose": "shrug",
+   "face": "happy",
    "cface": "happy",
    "status": {
     "text": "APROBADO",
@@ -190,7 +148,27 @@
      "★ 4.9 · Archivos completos"
     ]
    },
-   "tail": 2.6
+   "tail": 0.7
+  },
+  {
+   "who": "C",
+   "text": "¿Qué negocio le abro mañana? Dímelo en comentarios.",
+   "shot": "c_cu",
+   "pose": "shrug",
+   "face": "happy",
+   "cface": "happy",
+   "status": {
+    "text": "APROBADO",
+    "kind": "stamp",
+    "lines": [
+     "Opciones por cliente",
+     "★ 4.9 · Archivos completos"
+    ]
+   },
+   "tail": 1.8
   }
- ]
+ ],
+ "format": 2,
+ "hooktext": "10 NEGOCIOS QUIEREN MI LOGO",
+ "share": "Mándaselo a ese amigo que siempre dice que va a emprender"
 }

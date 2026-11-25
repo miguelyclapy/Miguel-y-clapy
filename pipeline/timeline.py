@@ -53,10 +53,12 @@ def build(ep, voice_meta):
             jump = -abs(math.sin(min(1, (tt - L["start"]) / 0.35) * math.pi)) * 40
         ex = 0.0
         if L.get("excite"):
-            ex = max(0.0, 1 - (tt - L["start"]) / 1.8) if L["i"] == 0 else min(1.0, (tt - L["start"]) / 0.6)
+            if L["i"] == 0: ex = max(0.0, 1 - (tt - L["start"]) / 1.8)
+            elif tl[L["i"] - 1].get("excite"): ex = 1.0   # sigue la emocion de la linea anterior (sin saltos)
+            else: ex = min(1.0, (tt - L["start"]) / 0.6)
         frames.append(dict(t=round(tt, 4), i=L["i"], la=[round(x, 2) for x in la], ra=[round(x, 2) for x in ra],
                            jump=round(jump, 2), mm=round(mouth(tt, "M"), 3), mc=round(mouth(tt, "C"), 3), ex=round(ex, 3)))
     keep = ("i", "start", "end", "vstart", "who", "text", "shot", "pose", "face", "cface", "status", "tag", "excite")
     return dict(fps=FPS, total=total, room=ep.get("room", "cuarto"), time=ep.get("time", "night"),
-                screen=ep.get("screen"), crowd=ep.get("crowd"), frames=frames,
+                screen=ep.get("screen"), crowd=ep.get("crowd"), hook=ep.get("hooktext"), share=ep.get("share"), frames=frames,
                 tl=[{k: L.get(k) for k in keep} for L in tl])

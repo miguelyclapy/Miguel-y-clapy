@@ -9,7 +9,7 @@
  },
  "youtube": {
   "title": "Clapy convirtió mi sala en hotel para perros 🏨🐕 #shorts",
-  "description": "Es de noche y hay quince perros en la sala. Sus dueños se fueron de vacaciones.\n\n3 consejos para tu negocio:\n1. Reglas claras desde el inicio\n2. Manda actualizaciones\n3. Atiende a quien viaja\n\nVideo nuevo todos los días. ¿Qué negocio me abre Clapy mañana? 👇\n\n#emprendimiento #negocios #humor #MiguelyClapy",
+  "description": "Es de noche y hay quince perros en la sala. Sus dueños se fueron de vacaciones.\n\n3 consejos para tu negocio:\n1. Reglas claras desde el inicio\n2. Manda actualizaciones\n3. Atiende a quien viaja\n\n¿Qué negocio me abre Clapy mañana? Déjalo en los comentarios 👇\nMándaselo a ese amigo que siempre dice que va a emprender 😂\n\n#emprendimiento #negocios #humor #MiguelyClapy",
   "hashtags": [
    "#shorts",
    "#emprendimiento",
@@ -23,7 +23,7 @@
  "lines": [
   {
    "who": "M",
-   "text": "Clapy, ¿por qué hay quince perros en mi sala?",
+   "text": "Clapy, ¡¿por qué hay quince perros en mi sala?!",
    "shot": "wide",
    "pose": "shrug",
    "face": "shock",
@@ -38,36 +38,18 @@
    "pose": "shrug",
    "face": "confused",
    "cface": "happy",
-   "status": null
+   "status": {
+    "text": "15 huéspedes peludos",
+    "kind": "progress"
+   }
   },
   {
    "who": "M",
-   "text": "¡¿Un hotel?!",
+   "text": "¡¿Y yo dónde duermo?!",
    "shot": "m_cu",
    "pose": "arms_up",
    "face": "shock",
    "cface": "normal",
-   "status": null
-  },
-  {
-   "who": "C",
-   "text": "Sus dueños están de vacaciones. Ellos también merecen descansar.",
-   "shot": "screen",
-   "pose": "cross",
-   "face": "sus",
-   "cface": "happy",
-   "status": {
-    "text": "15 huéspedes peludos",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¡Y yo dónde duermo!",
-   "shot": "m_ms",
-   "pose": "point",
-   "face": "angry",
-   "cface": "normal",
    "status": {
     "text": "15 huéspedes peludos",
     "kind": "progress"
@@ -75,31 +57,7 @@
   },
   {
    "who": "C",
-   "text": "En el pasillo. Tú no pagaste habitación.",
-   "shot": "c_cu",
-   "pose": "point",
-   "face": "angry",
-   "cface": "smug",
-   "status": {
-    "text": "15 huéspedes peludos",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "M",
-   "text": "¿Y si uno se pone agresivo?",
-   "shot": "m_cu",
-   "pose": "cross",
-   "face": "sus",
-   "cface": "normal",
-   "status": {
-    "text": "15 huéspedes peludos",
-    "kind": "progress"
-   }
-  },
-  {
-   "who": "C",
-   "text": "Antes de llegar, el dueño firma reglas: vacunas, comida, horarios. Todo claro desde el principio.",
+   "text": "En el pasillo. Cada dueño firma reglas: vacunas, comida y horarios.",
    "shot": "c_ms",
    "pose": "think",
    "face": "neutral",
@@ -124,7 +82,7 @@
   },
   {
    "who": "C",
-   "text": "Y cada dueño recibe dos fotos al día. Dormido, comiendo, feliz. Viajan tranquilos.",
+   "text": "Y el dueño recibe dos fotos al día. Viaja tranquilo.",
    "shot": "screen",
    "pose": "idle",
    "face": "confused",
@@ -139,10 +97,10 @@
   },
   {
    "who": "M",
-   "text": "¿Y de dónde salen tantos clientes?",
+   "text": "¿Y de dónde salen los clientes?",
    "shot": "m_cu",
-   "pose": "hands_head",
-   "face": "shock",
+   "pose": "shrug",
+   "face": "confused",
    "cface": "normal",
    "status": {
     "text": "Fotos al dueño: 2 al día",
@@ -153,10 +111,10 @@
   },
   {
    "who": "C",
-   "text": "De la gente que viaja. En vacaciones nadie sabe qué hacer con su perro. Nosotros sí.",
+   "text": "De la gente que viaja. Nadie sabe qué hacer con su perro.",
    "shot": "c_ms",
-   "pose": "self",
-   "face": "confused",
+   "pose": "idle",
+   "face": "neutral",
    "cface": "happy",
    "status": {
     "text": "★ 5.0 · Dueños tranquilos",
@@ -166,10 +124,10 @@
   },
   {
    "who": "M",
-   "text": "Clapy, ¿y si ladran toda la noche?",
+   "text": "¿Y si ladran toda la noche?",
    "shot": "m_ms",
-   "pose": "hands_head",
-   "face": "shock",
+   "pose": "arms_up",
+   "face": "angry",
    "cface": "normal",
    "status": {
     "text": "★ 5.0 · Dueños tranquilos",
@@ -180,6 +138,24 @@
    "who": "C",
    "text": "Tú les cantas. El arrullo viene incluido.",
    "shot": "wide",
+   "pose": "arms_up",
+   "face": "shock",
+   "cface": "happy",
+   "status": {
+    "text": "HOSPEDADOS",
+    "kind": "stamp",
+    "lines": [
+     "Fotos al dueño: 2 al día",
+     "★ 5.0 · Dueños tranquilos"
+    ]
+   },
+   "excite": true,
+   "tail": 0.7
+  },
+  {
+   "who": "C",
+   "text": "¿Qué negocio le abro mañana? Dímelo en comentarios.",
+   "shot": "c_cu",
    "pose": "shrug",
    "face": "happy",
    "cface": "happy",
@@ -192,11 +168,14 @@
     ]
    },
    "excite": true,
-   "tail": 2.6
+   "tail": 1.8
   }
  ],
  "crowd": {
   "type": "dog",
   "count": 15
- }
+ },
+ "format": 2,
+ "hooktext": "15 PERROS EN MI SALA",
+ "share": "Mándaselo a ese amigo que siempre dice que va a emprender"
 }
