@@ -18,3 +18,4 @@
 0018_torneo-de-videojuegos.json
 0019_barberia-en-casa.json
 0020_pan-dulce.json
+0021_tienda-de-stickers.json
