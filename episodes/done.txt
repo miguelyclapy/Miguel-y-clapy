@@ -19,3 +19,4 @@
 0019_barberia-en-casa.json
 0020_pan-dulce.json
 0021_tienda-de-stickers.json
+0022_cuidado-de-mascotas.json
